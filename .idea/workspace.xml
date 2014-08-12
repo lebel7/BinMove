@@ -1,0 +1,2987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="name" value="app: com.proper.BinMove" />
+        <option name="packageNamePattern" value="com.proper.BinMove" />
+      </filter>
+      <filter>
+        <option name="name" value="app: com.proper.binmove" />
+        <option name="packageNamePattern" value="com.proper.binmove" />
+      </filter>
+    </filters>
+  </component>
+  <component name="AndroidLayoutPreviewToolWindow">
+    <option name="state">
+      <GlobalState />
+    </option>
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/res/layout-small/lyt_chooser.xml">
+        <config>
+          <theme>@android:style/Theme.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout-small/lyt_login.xml">
+        <config>
+          <theme>@android:style/Theme.Holo.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/dialog_base.xml">
+        <config>
+          <theme>@android:style/Theme.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/dialog_productdetails.xml">
+        <config>
+          <theme>@android:style/Theme.Holo</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/dialog_quantity.xml">
+        <config>
+          <theme>@style/CustomDialog</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/list_bin_item1.xml">
+        <config>
+          <theme>@android:style/Theme.Holo.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/list_binaction_item.xml">
+        <config>
+          <theme>@android:style/Theme.Holo.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/list_binmessage_item.xml">
+        <config>
+          <theme>@android:style/Theme.Holo.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/list_product_item.xml">
+        <config>
+          <theme>@android:style/Theme.Holo.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/list_qryview_item.xml">
+        <config>
+          <theme>@android:style/Theme.Holo.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/list_qryview_item1.xml">
+        <config>
+          <theme>@android:style/Theme.Holo.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/list_qryview_item2.xml">
+        <config>
+          <theme>@android:style/Theme.Holo.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/lyt_bindetails.xml">
+        <config>
+          <theme>@android:style/Theme.Holo.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/lyt_binmain.xml">
+        <config>
+          <theme>@android:style/Theme.Holo.Wallpaper.NoTitleBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/lyt_chooser.xml">
+        <config>
+          <theme>@android:style/Theme.Holo.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/lyt_fgmsingleitemdetails.xml">
+        <config>
+          <theme>@android:style/Theme.Holo.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/lyt_info.xml">
+        <config>
+          <theme>@android:style/Theme.Holo.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/lyt_login.xml">
+        <config>
+          <theme>@android:style/Theme.Holo.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/lyt_monitor.xml">
+        <config>
+          <theme>@android:style/Theme.Holo.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/lyt_productmovedialog.xml">
+        <config>
+          <theme>@android:style/Theme.Holo.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/lyt_qryscan.xml">
+        <config>
+          <theme>@android:style/Theme.Holo</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/lyt_qryview.xml">
+        <config>
+          <theme>@android:style/Theme.Holo.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/lyt_querychooser.xml">
+        <config>
+          <theme>@android:style/Theme.Holo.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/lyt_singledetailsmain.xml">
+        <config>
+          <theme>@android:style/Theme.Holo.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/lyt_singlemain.xml">
+        <config>
+          <theme>@android:style/Theme.Holo.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/menu/mnu_itemdetail.xml">
+        <config>
+          <theme>@android:style/Theme.Holo.Light</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.proper.binmove" />
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/com/proper/data/adapters/BarcodeResponseAdapter.java" line="123" mnemonic="2" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d88915d4-1e09-49f7-8396-5fcb659d1593" name="Default" comment="radically changed the software on the architecture level so that we can then leverage some various design patterns in java">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/pmdlogo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/properlogo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/binmove/ActChooser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/binmove/ActLogin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/binmove/AppConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/binmove/AppContext.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/binmove/AppManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveServiceReceiver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/utils/DeviceUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/utils/FileUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/utils/MethodsCompact.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/fragments/ProductDetailsDialogFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/utils/SecUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/utils/UIHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/activity_close_scale.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/activity_close_translate.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/activity_open_scale.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/activity_open_translate.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/borderlist.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/bottom_in.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/dialog_productdetails.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/left_out.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/lyt_login.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-small/lyt_login.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/right_in.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/rotate.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/top_out.xml" />
+      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\UnitTest\UnitTest.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\UnitTest\libs\dagger-1.1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\UnitTest\libs\dagger-compiler-1.1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\UnitTest\libs\espresso-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\UnitTest\libs\guava-14.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\UnitTest\libs\hamcrest-core-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\UnitTest\libs\hamcrest-integration-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\UnitTest\libs\hamcrest-library-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\UnitTest\libs\javawriter-2.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\UnitTest\libs\javax.annotation-api-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\UnitTest\libs\javax.inject-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\UnitTest\libs\jsr305-1.3.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\UnitTest\libs\testrunner-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\UnitTest\libs\testrunner-runtime-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\gen\com\proper\bin2bin\Manifest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\gen\com\proper\bin2bin\R.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\android\barcode\Bin2BinService.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\bin2bin\ActChooser.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\servicetasks\Bin2BinServiceReceiver.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\Bin2Bin.iml" afterPath="$PROJECT_DIR$/BinMove.iml" />
+      <change type="MOVED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\gen\com\proper\bin2bin\BuildConfig.java" afterPath="$PROJECT_DIR$/gen/com/proper/binmove/BuildConfig.java" />
+      <change type="MOVED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\bin2bin\ActBinDetails.java" afterPath="$PROJECT_DIR$/src/com/proper/binmove/ActBinDetails.java" />
+      <change type="MOVED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\bin2bin\ActBinItemSelection.java" afterPath="$PROJECT_DIR$/src/com/proper/binmove/ActBinItemSelection.java" />
+      <change type="MOVED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\bin2bin\ActBinMoveMonitor.java" afterPath="$PROJECT_DIR$/src/com/proper/binmove/ActBinMoveMonitor.java" />
+      <change type="MOVED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\bin2bin\ActInfo.java" afterPath="$PROJECT_DIR$/src/com/proper/binmove/ActInfo.java" />
+      <change type="MOVED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\bin2bin\ActMoveChooser.java" afterPath="$PROJECT_DIR$/src/com/proper/binmove/ActMoveChooser.java" />
+      <change type="MOVED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\bin2bin\ActProductMoveDialog.java" afterPath="$PROJECT_DIR$/src/com/proper/binmove/ActProductMoveDialog.java" />
+      <change type="MOVED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\bin2bin\ActQueryChooser.java" afterPath="$PROJECT_DIR$/src/com/proper/binmove/ActQueryChooser.java" />
+      <change type="MOVED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\bin2bin\ActSingleDetails.java" afterPath="$PROJECT_DIR$/src/com/proper/binmove/ActSingleDetails.java" />
+      <change type="MOVED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\bin2bin\QuantityDialogFragment.java" afterPath="$PROJECT_DIR$/src/com/proper/fragments/QuantityDialogFragment.java" />
+      <change type="MOVED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\bin2bin\QueryView.java" afterPath="$PROJECT_DIR$/src/com/proper/binmove/QueryView.java" />
+      <change type="MOVED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\bin2bin\fgmSingleItem.java" afterPath="$PROJECT_DIR$/src/com/proper/fragments/fgmSingleItem.java" />
+      <change type="MOVED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\bin2bin\fgmSingleItemDetails.java" afterPath="$PROJECT_DIR$/src/com/proper/fragments/fgmSingleItemDetails.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/barcode/ActBinMain.java" afterPath="$PROJECT_DIR$/src/com/android/barcode/ActBinMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinMain.java" afterPath="$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinProductMain.java" afterPath="$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinProductMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java" afterPath="$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java" afterPath="$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/barcode/ActSingleMain.java" afterPath="$PROJECT_DIR$/src/com/android/barcode/ActSingleMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chainway/ht/ui/ActSingleMain.java" afterPath="$PROJECT_DIR$/src/com/chainway/ht/ui/ActSingleMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/data/adapters/BarcodeBinResponseAdapater.java" afterPath="$PROJECT_DIR$/src/com/proper/data/adapters/BarcodeBinResponseAdapater.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/data/adapters/BarcodeResponseAdapter.java" afterPath="$PROJECT_DIR$/src/com/proper/data/adapters/BarcodeResponseAdapter.java" />
+      <change type="MODIFICATION" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\messagequeue\BasicPublishWrapper.java" afterPath="$PROJECT_DIR$/src/com/proper/messagequeue/BasicPublishWrapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/data/adapters/BinListAdapter.java" afterPath="$PROJECT_DIR$/src/com/proper/data/adapters/BinListAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/data/adapters/BinResponseAdapter.java" afterPath="$PROJECT_DIR$/src/com/proper/data/adapters/BinResponseAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/data/adapters/BinResponseSelectionAdapter.java" afterPath="$PROJECT_DIR$/src/com/proper/data/adapters/BinResponseSelectionAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/data/helpers/DialogHelper.java" afterPath="$PROJECT_DIR$/src/com/proper/data/helpers/DialogHelper.java" />
+      <change type="MODIFICATION" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\messagequeue\HttpMessageResolver.java" afterPath="$PROJECT_DIR$/src/com/proper/messagequeue/HttpMessageResolver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/data/core/IHttpMessageResolver.java" afterPath="$PROJECT_DIR$/src/com/proper/data/core/IHttpMessageResolver.java" />
+      <change type="MODIFICATION" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\logger\LogHelper.java" afterPath="$PROJECT_DIR$/src/com/proper/logger/LogHelper.java" />
+      <change type="MODIFICATION" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\messagequeue\Message.java" afterPath="$PROJECT_DIR$/src/com/proper/messagequeue/Message.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/data/adapters/MoveActionAdapter.java" afterPath="$PROJECT_DIR$/src/com/proper/data/adapters/MoveActionAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/data/adapters/MoveMessageAdapter.java" afterPath="$PROJECT_DIR$/src/com/proper/data/adapters/MoveMessageAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/data/adapters/ProductBinAdapter.java" afterPath="$PROJECT_DIR$/src/com/proper/data/adapters/ProductBinAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/data/adapters/ProductBinAdapterOptimized.java" afterPath="$PROJECT_DIR$/src/com/proper/data/adapters/ProductBinAdapterOptimized.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/data/ProductBinSelection.java" afterPath="$PROJECT_DIR$/src/com/proper/data/ProductBinSelection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/data/adapters/ProductResponseAdapter.java" afterPath="$PROJECT_DIR$/src/com/proper/data/adapters/ProductResponseAdapter.java" />
+      <change type="MODIFICATION" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\messagequeue\QueueDeclaration.java" afterPath="$PROJECT_DIR$/src/com/proper/messagequeue/QueueDeclaration.java" />
+      <change type="MODIFICATION" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\messagequeue\RabbitMqHelper.java" afterPath="$PROJECT_DIR$/src/com/proper/messagequeue/RabbitMqHelper.java" />
+      <change type="MODIFICATION" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\servicetasks\ScheduleReceiver.java" afterPath="$PROJECT_DIR$/src/com/proper/servicetasks/ScheduleReceiver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/data/helpers/SoundHelper.java" afterPath="$PROJECT_DIR$/src/com/proper/data/helpers/SoundHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/utils/StringUtils.java" afterPath="$PROJECT_DIR$/src/com/proper/utils/StringUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/data/UserAuthenticator.java" afterPath="$PROJECT_DIR$/src/com/proper/data/UserAuthenticator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/border.xml" afterPath="$PROJECT_DIR$/res/drawable/border.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/button_blue.xml" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/button_blue.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/dialog_quantity.xml" afterPath="$PROJECT_DIR$/res/layout/dialog_quantity.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/lyt_binitem_selection.xml" afterPath="$PROJECT_DIR$/res/layout/lyt_binitem_selection.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/lyt_chooser.xml" afterPath="$PROJECT_DIR$/res/layout/lyt_chooser.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/lyt_querychooser.xml" afterPath="$PROJECT_DIR$/res/layout/lyt_querychooser.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/lyt_singledetailsmain.xml" afterPath="$PROJECT_DIR$/res/layout/lyt_singledetailsmain.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-small/lyt_singledetailsmain.xml" afterPath="$PROJECT_DIR$/res/layout-small/lyt_singledetailsmain.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="BinMove.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/BinMove$ActSingleDetails_Should_carryLoadInfo.coverage" NAME="ActSingleDetails_Should.carryLoadInfo Coverage Results" MODIFIED="1402330406910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.proper.BinMove.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BinMove$ActChooserTest.coverage" NAME="ActChooserTest Coverage Results" MODIFIED="1405514128927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.proper.BinMove.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BinMove$ActSingleDetails_Should.coverage" NAME="ActSingleDetails_Should Coverage Results" MODIFIED="1402331019191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.proper.BinMove.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/android/barcode/ActMain.java" line="715" class="com.android.barcode.ActMain.ClickEvent" package="com.android.barcode">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/android/barcode/ActMain.java" line="332" class="com.android.barcode.ActMain$7" package="com.android.barcode">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/android/barcode/ActMain.java" line="336" class="com.android.barcode.ActMain$7" package="com.android.barcode">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/android/barcode/ActMain.java" line="323" class="com.android.barcode.ActMain$7" package="com.android.barcode">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/android/barcode/ActMain.java" line="320" class="com.android.barcode.ActMain$7" package="com.android.barcode">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/android/barcode/ActMain.java" line="644" class="com.android.barcode.ActMain.TextChanged" package="com.android.barcode">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/android/barcode/ActMain.java" line="641" class="com.android.barcode.ActMain.TextChanged" package="com.android.barcode">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="BinMove" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="BinMoveService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="139" max-vertical-offset="867">
+              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActLogin.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/ActLogin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="884" max-vertical-offset="6375">
+              <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UIHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/proper/utils/UIHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="6001">
+              <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScheduleReceiver.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/proper/servicetasks/ScheduleReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8947368" vertical-offset="0" max-vertical-offset="731">
+              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinMoveServiceReceiver.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveServiceReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="391">
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Lebel" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java" />
+        <option value="$PROJECT_DIR$/res/drawable/borderlist.xml" />
+        <option value="$PROJECT_DIR$/src/com/proper/data/ProductBinSelection.java" />
+        <option value="$PROJECT_DIR$/res/drawable/border.xml" />
+        <option value="$PROJECT_DIR$/res/layout/dialog_quantity.xml" />
+        <option value="$PROJECT_DIR$/src/ActExample.java" />
+        <option value="$PROJECT_DIR$/src/com/chainway/ht/ui/ActLogin.java" />
+        <option value="$PROJECT_DIR$/src/com/proper/utils/DeviceUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/proper/utils/SecUtils.java" />
+        <option value="$PROJECT_DIR$/res/layout/lyt_chooser.xml" />
+        <option value="$PROJECT_DIR$/src/com/proper/utils/StringUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/proper/data/UserAuthenticator.java" />
+        <option value="$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java" />
+        <option value="$PROJECT_DIR$/src/com/chainway/ht/ui/ActSingleMain.java" />
+        <option value="$PROJECT_DIR$/src/com/proper/BinMove/ActMoveChooser.java" />
+        <option value="$PROJECT_DIR$/src/com/proper/BinMove/ActInfo.java" />
+        <option value="$PROJECT_DIR$/src/com/proper/BinMove/ActProductMoveDialog.java" />
+        <option value="$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinMain.java" />
+        <option value="$PROJECT_DIR$/res/drawable-xhdpi/button_blue.xml" />
+        <option value="$PROJECT_DIR$/res/layout/dialog_productdetails.xml" />
+        <option value="$PROJECT_DIR$/res/layout/lyt_binitem_selection.xml" />
+        <option value="$PROJECT_DIR$/src/com/proper/fragments/ProductDetailsDialogFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinProductMain.java" />
+        <option value="$PROJECT_DIR$/res/anim/rotate.xml" />
+        <option value="$PROJECT_DIR$/res/anim/activity_close_scale.xml" />
+        <option value="$PROJECT_DIR$/res/anim/activity_close_translate.xml" />
+        <option value="$PROJECT_DIR$/res/anim/activity_open_scale.xml" />
+        <option value="$PROJECT_DIR$/res/anim/activity_open_translate.xml" />
+        <option value="$PROJECT_DIR$/res/layout/lyt_querychooser.xml" />
+        <option value="$PROJECT_DIR$/res/layout/lyt_login.xml" />
+        <option value="$PROJECT_DIR$/src/com/proper/BinMove/ActChooser.java" />
+        <option value="$PROJECT_DIR$/src/com/proper/BinMove/ActQueryChooser.java" />
+        <option value="$PROJECT_DIR$/res/layout/lyt_bindetails.xml" />
+        <option value="$PROJECT_DIR$/src/com/proper/BinMove/ActBinDetails.java" />
+        <option value="$PROJECT_DIR$/src/com/proper/BinMove/ActLogin.java" />
+        <option value="$PROJECT_DIR$/src/com/proper/fragments/QuantityDialogFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/proper/BinMove/ActBinItemSelection.java" />
+        <option value="$PROJECT_DIR$/src/com/proper/MessageQueue/HttpMessageResolver.java" />
+        <option value="$PROJECT_DIR$/src/com/proper/ServiceTasks/BinMoveServiceReceiver.java" />
+        <option value="$PROJECT_DIR$/src/com/proper/ServiceTasks/ScheduleReceiver.java" />
+        <option value="$PROJECT_DIR$/UnitTest/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/proper/ServiceTasks/BinMoveService.java" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/com/proper/utils/UIHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/proper/utils/MethodsCompact.java" />
+        <option value="$PROJECT_DIR$/src/com/proper/utils/FileUtils.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/proper/binmove/AppContext.java" />
+        <option value="$PROJECT_DIR$/src/com/proper/binmove/AppManager.java" />
+        <option value="$PROJECT_DIR$/src/com/proper/binmove/AppConfig.java" />
+        <option value="$PROJECT_DIR$/src/com/proper/servicetasks/ScheduleReceiver.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1092" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectStructureProblems">
+    <ignored-problems>
+      <problem id="invalid-module-dependency(module:UnitTests,&lt; Android API 20 Platform &gt;)" />
+    </ignored-problems>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BinMove" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BinMove" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BinMove" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HandsetTest-chainway" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="MT-GQCAHIPNBQNF5HM7" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="VC4000" />
+    <property name="LayoutCode.rearrangeEntriesXML" value="true" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.SHOW" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="271" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="299" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="301" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="975" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="293" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="292" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="293" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="968" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main.java" />
+      <recent name="com.chainway.ht.ui" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lebel\IdeaProjects\BinMove\res\anim" />
+      <recent name="C:\Users\Lebel\IdeaProjects\BinMove\res\drawable-xhdpi" />
+      <recent name="C:\Users\Lebel\IdeaProjects\BinMove\res\layout-small" />
+      <recent name="C:\Users\Lebel\IdeaProjects\BinMove\res\drawable" />
+      <recent name="C:\Users\Lebel\IdeaProjects\BinMove\libs" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.proper.BinMove" />
+      <recent name="com.proper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android Application.BinMove">
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BinMove" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="BinMove" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.BinMove" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d88915d4-1e09-49f7-8396-5fcb659d1593" name="Default" comment="" />
+      <created>1393343756581</created>
+      <updated>1393343756581</updated>
+      <workItem from="1393343762687" duration="12778000" />
+      <workItem from="1393407266837" duration="38095000" />
+      <workItem from="1393492703047" duration="49471000" />
+      <workItem from="1393606376295" duration="3087000" />
+      <workItem from="1393609530304" duration="153000" />
+      <workItem from="1393796685043" duration="132000" />
+      <workItem from="1393862068188" duration="28761000" />
+      <workItem from="1393951950042" duration="2388000" />
+      <workItem from="1394023615820" duration="27430000" />
+      <workItem from="1394558430842" duration="608000" />
+      <workItem from="1394714759489" duration="18632000" />
+      <workItem from="1394794218529" duration="746000" />
+      <workItem from="1395223825366" duration="2317000" />
+      <workItem from="1395227458027" duration="21509000" />
+      <workItem from="1396352233405" duration="393000" />
+      <workItem from="1396352631087" duration="3898000" />
+      <workItem from="1396369082242" duration="7648000" />
+      <workItem from="1396436552792" duration="794000" />
+      <workItem from="1396448116838" duration="2210000" />
+      <workItem from="1396455154998" duration="1821000" />
+      <workItem from="1396513800176" duration="18374000" />
+      <workItem from="1396598293605" duration="16089000" />
+      <workItem from="1396624945112" duration="889000" />
+      <workItem from="1397055321046" duration="3910000" />
+      <workItem from="1397126481041" duration="8067000" />
+      <workItem from="1397205648142" duration="22347000" />
+      <workItem from="1397469168056" duration="47267000" />
+      <workItem from="1397660750875" duration="5780000" />
+      <workItem from="1397728384650" duration="10247000" />
+      <workItem from="1397744906479" duration="3940000" />
+      <workItem from="1398156619179" duration="4712000" />
+      <workItem from="1398165474431" duration="6203000" />
+      <workItem from="1398174913167" duration="8443000" />
+      <workItem from="1398241345591" duration="19781000" />
+      <workItem from="1398328036019" duration="3749000" />
+      <workItem from="1398335640826" duration="7190000" />
+      <workItem from="1398415606339" duration="25028000" />
+      <workItem from="1398673419446" duration="25397000" />
+      <workItem from="1398846377081" duration="8758000" />
+      <workItem from="1398857020168" duration="17170000" />
+      <workItem from="1398933020430" duration="5162000" />
+      <workItem from="1398939434013" duration="1719000" />
+      <workItem from="1398941529157" duration="17865000" />
+      <workItem from="1399017808655" duration="24493000" />
+      <workItem from="1399371446336" duration="3464000" />
+      <workItem from="1399376266684" duration="9415000" />
+      <workItem from="1399391392764" duration="4160000" />
+      <workItem from="1399539996354" duration="4374000" />
+      <workItem from="1399642933049" duration="4258000" />
+      <workItem from="1400228620110" duration="4977000" />
+      <workItem from="1400237811293" duration="16712000" />
+      <workItem from="1400487284419" duration="25742000" />
+      <workItem from="1400573939542" duration="27055000" />
+      <workItem from="1400659832195" duration="22633000" />
+      <workItem from="1400747480441" duration="18730000" />
+      <workItem from="1400832481397" duration="25622000" />
+      <workItem from="1401180233730" duration="27732000" />
+      <workItem from="1401266994194" duration="11555000" />
+      <workItem from="1401282309216" duration="9220000" />
+      <workItem from="1401353438692" duration="21785000" />
+      <workItem from="1401439690008" duration="20693000" />
+      <workItem from="1401696712741" duration="24875000" />
+      <workItem from="1401788154688" duration="19034000" />
+      <workItem from="1401868304691" duration="26604000" />
+      <workItem from="1401955710107" duration="10189000" />
+      <workItem from="1401972145287" duration="11255000" />
+      <workItem from="1402043521670" duration="25531000" />
+      <workItem from="1402302440465" duration="161000" />
+      <workItem from="1402302608371" duration="649000" />
+      <workItem from="1402303276476" duration="18775000" />
+      <workItem from="1402328276638" duration="3186000" />
+      <workItem from="1402388082671" duration="24708000" />
+      <workItem from="1402476671447" duration="17577000" />
+      <workItem from="1402502383685" duration="4631000" />
+      <workItem from="1402561568009" duration="22639000" />
+      <workItem from="1402650141766" duration="22547000" />
+      <workItem from="1402992952055" duration="2319000" />
+      <workItem from="1402996712159" duration="9019000" />
+      <workItem from="1403014024055" duration="26000" />
+      <workItem from="1403014092808" duration="8132000" />
+      <workItem from="1403081637579" duration="25596000" />
+      <workItem from="1403165781358" duration="27349000" />
+      <workItem from="1403253266418" duration="34508000" />
+      <workItem from="1403442010109" duration="14659000" />
+      <workItem from="1403481660697" duration="1138000" />
+      <workItem from="1403512385872" duration="24712000" />
+      <workItem from="1403597763336" duration="1462000" />
+      <workItem from="1403684421603" duration="17304000" />
+      <workItem from="1403793794923" duration="3633000" />
+      <workItem from="1403860465422" duration="11270000" />
+      <workItem from="1404116140147" duration="12623000" />
+      <workItem from="1404290410810" duration="5044000" />
+      <workItem from="1404402464791" duration="1106000" />
+      <workItem from="1404727170213" duration="21207000" />
+      <workItem from="1404807819746" duration="11823000" />
+      <workItem from="1404819697627" duration="15144000" />
+      <workItem from="1404893945135" duration="3520000" />
+      <workItem from="1404897508333" duration="28366000" />
+      <workItem from="1404981937460" duration="24662000" />
+      <workItem from="1405066270975" duration="8421000" />
+      <workItem from="1405083443422" duration="8376000" />
+      <workItem from="1405325848460" duration="18734000" />
+      <workItem from="1405412261171" duration="16715000" />
+      <workItem from="1405508498572" duration="8135000" />
+      <workItem from="1405587890320" duration="4309000" />
+      <workItem from="1405610888974" duration="3308000" />
+      <workItem from="1405673302455" duration="9567000" />
+      <workItem from="1405691495021" duration="7481000" />
+      <workItem from="1405948500902" duration="860000" />
+      <workItem from="1405949412181" duration="82000" />
+      <workItem from="1405949545786" duration="1818000" />
+      <workItem from="1405955118467" duration="817000" />
+      <workItem from="1406030642046" duration="13519000" />
+      <workItem from="1406103269972" duration="3072000" />
+      <workItem from="1406106397763" duration="13762000" />
+      <workItem from="1406189077218" duration="4045000" />
+      <workItem from="1406200682302" duration="14328000" />
+      <workItem from="1406217568208" duration="2533000" />
+      <workItem from="1406276193213" duration="24570000" />
+      <workItem from="1406535667006" duration="9853000" />
+      <workItem from="1406552334952" duration="6972000" />
+      <workItem from="1406560233876" duration="7309000" />
+      <workItem from="1406795793540" duration="29862000" />
+      <workItem from="1406880229064" duration="18454000" />
+      <workItem from="1406900364556" duration="1277000" />
+      <workItem from="1406902880800" duration="94000" />
+      <workItem from="1406905902877" duration="3453000" />
+      <workItem from="1407139582398" duration="7327000" />
+      <workItem from="1407150347416" duration="597000" />
+      <workItem from="1407158192070" duration="1063000" />
+      <workItem from="1407159272096" duration="133000" />
+      <workItem from="1407159454631" duration="11330000" />
+      <workItem from="1407226942003" duration="29752000" />
+      <workItem from="1407313620225" duration="24644000" />
+      <workItem from="1407400532640" duration="15018000" />
+      <workItem from="1407419013083" duration="4862000" />
+      <workItem from="1407425631955" duration="2431000" />
+      <workItem from="1407485143069" duration="8056000" />
+      <workItem from="1407514946693" duration="394000" />
+      <workItem from="1407515408927" duration="247000" />
+      <workItem from="1407831919869" duration="13080000" />
+      <workItem from="1407848102630" duration="22000" />
+      <workItem from="1407852382986" duration="804000" />
+    </task>
+    <task id="LOCAL-00001" summary="Deleted the UnitTest project and fixed some UI bugs identified by Aaron and aligned some other program sequences in correct order.">
+      <created>1406114107883</created>
+      <updated>1406114107883</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Finished up new requirements (#703, #737, #333), Refined requirements (#691, #693) to allow Live testing by Scott and Dan.">
+      <created>1406899440124</created>
+      <updated>1406899440124</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1692047000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1928" y="-8" width="1936" height="1092" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20707597" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32435232" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="-1920" y="377" width="1920" height="321" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23626943" sideWeight="0.49895832" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20807454" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32778355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19669509" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29864725" sideWeight="0.49946696" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2130977" sideWeight="0.49946696" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32674298" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21268657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32154006" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16693333" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3243243" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991684" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882413" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32418698" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882413" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19669509" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32995737" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32674298" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2228145" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3236212" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16213334" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3257024" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" x="-1920" y="377" width="1920" height="321" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3253638" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41415194" sideWeight="0.49895832" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30385014" sideWeight="0.49895832" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2226847" sideWeight="0.49895832" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991684" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="Deleted the UnitTest project" />
+    <MESSAGE value="Deleted the UnitTest project and fixed some UI bugs identified by Aaron and aligned some other program sequences in correct order." />
+    <MESSAGE value="Finished up new requirements (#703, #737, #333), Refined requirements (#691, #693) to allow Live testing by Scott and Dan." />
+    <MESSAGE value="radically changed the software on the architecture level so that we can then leverage some various design patterns in java" />
+    <option name="LAST_COMMIT_MESSAGE" value="radically changed the software on the architecture level so that we can then leverage some various design patterns in java" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActSingleMain.java</url>
+          <line>830</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/fragments/fgmSingleItemDetails.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/fragments/fgmSingleItemDetails.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java</url>
+          <line>1744</line>
+          <properties />
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java</url>
+          <line>1743</line>
+          <properties />
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java</url>
+          <line>1061</line>
+          <properties />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java</url>
+          <line>1671</line>
+          <properties />
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java</url>
+          <line>1709</line>
+          <properties />
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java</url>
+          <line>1814</line>
+          <properties />
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java</url>
+          <line>1807</line>
+          <properties />
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java</url>
+          <line>1800</line>
+          <properties />
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActSingleDetails.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActSingleDetails.java</url>
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActSingleDetails.java</url>
+          <line>102</line>
+          <properties />
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/fragments/fgmSingleItemDetails.java</url>
+          <line>199</line>
+          <properties />
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/fragments/fgmSingleItemDetails.java</url>
+          <line>168</line>
+          <properties />
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/fragments/fgmSingleItemDetails.java</url>
+          <line>157</line>
+          <properties />
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/fragments/fgmSingleItemDetails.java</url>
+          <line>126</line>
+          <properties />
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActSingleMain.java</url>
+          <line>937</line>
+          <properties />
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActSingleMain.java</url>
+          <line>939</line>
+          <properties />
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActSingleMain.java</url>
+          <line>947</line>
+          <properties />
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/fragments/fgmSingleItemDetails.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/fragments/fgmSingleItemDetails.java</url>
+          <line>154</line>
+          <properties />
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/fragments/fgmSingleItemDetails.java</url>
+          <line>141</line>
+          <properties />
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/fragments/fgmSingleItem.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/fragments/fgmSingleItemDetails.java</url>
+          <line>127</line>
+          <properties />
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/fragments/fgmSingleItemDetails.java</url>
+          <line>134</line>
+          <properties />
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/fragments/fgmSingleItemDetails.java</url>
+          <line>135</line>
+          <properties />
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/fragments/fgmSingleItemDetails.java</url>
+          <line>121</line>
+          <properties />
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/fragments/fgmSingleItemDetails.java</url>
+          <line>123</line>
+          <properties />
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActSingleMain.java</url>
+          <line>926</line>
+          <properties />
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/QueryView.java</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java</url>
+          <line>1801</line>
+          <properties />
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/QueryView.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java</url>
+          <line>1722</line>
+          <properties />
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java</url>
+          <line>1723</line>
+          <properties />
+          <option name="timeStamp" value="265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java</url>
+          <line>1775</line>
+          <properties />
+          <option name="timeStamp" value="267" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java</url>
+          <line>1714</line>
+          <properties />
+          <option name="timeStamp" value="297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java</url>
+          <line>1713</line>
+          <properties />
+          <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java</url>
+          <line>1757</line>
+          <properties />
+          <option name="timeStamp" value="307" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java</url>
+          <line>1756</line>
+          <properties />
+          <option name="timeStamp" value="308" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/QueryView.java</url>
+          <line>155</line>
+          <properties />
+          <option name="timeStamp" value="319" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/QueryView.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="320" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java</url>
+          <line>1804</line>
+          <properties />
+          <option name="timeStamp" value="321" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java</url>
+          <line>1679</line>
+          <properties />
+          <option name="timeStamp" value="322" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/QueryView.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="323" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActBinDetails.java</url>
+          <line>311</line>
+          <properties />
+          <option name="timeStamp" value="327" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActBinDetails.java</url>
+          <line>312</line>
+          <properties />
+          <option name="timeStamp" value="328" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActBinDetails.java</url>
+          <line>313</line>
+          <properties />
+          <option name="timeStamp" value="329" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActBinDetails.java</url>
+          <line>317</line>
+          <properties />
+          <option name="timeStamp" value="330" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActBinDetails.java</url>
+          <line>320</line>
+          <properties />
+          <option name="timeStamp" value="331" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActBinDetails.java</url>
+          <line>324</line>
+          <properties />
+          <option name="timeStamp" value="332" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActBinDetails.java</url>
+          <line>341</line>
+          <properties />
+          <option name="timeStamp" value="333" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActBinDetails.java</url>
+          <line>360</line>
+          <properties />
+          <option name="timeStamp" value="336" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActBinDetails.java</url>
+          <line>308</line>
+          <properties />
+          <option name="timeStamp" value="340" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActBinDetails.java</url>
+          <line>190</line>
+          <properties />
+          <option name="timeStamp" value="341" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActBinDetails.java</url>
+          <line>381</line>
+          <properties />
+          <option name="timeStamp" value="342" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActBinDetails.java</url>
+          <line>382</line>
+          <properties />
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActBinDetails.java</url>
+          <line>385</line>
+          <properties />
+          <option name="timeStamp" value="361" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActInfo.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="371" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActInfo.java</url>
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="372" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActInfo.java</url>
+          <line>101</line>
+          <properties />
+          <option name="timeStamp" value="373" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActInfo.java</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="374" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActInfo.java</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="375" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActInfo.java</url>
+          <line>102</line>
+          <properties />
+          <option name="timeStamp" value="376" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActBinMain.java</url>
+          <line>1085</line>
+          <properties />
+          <option name="timeStamp" value="383" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActBinItemSelection.java</url>
+          <line>216</line>
+          <properties />
+          <option name="timeStamp" value="396" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActBinItemSelection.java</url>
+          <line>159</line>
+          <properties />
+          <option name="timeStamp" value="446" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActBinItemSelection.java</url>
+          <line>158</line>
+          <properties />
+          <option name="timeStamp" value="448" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActBinItemSelection.java</url>
+          <line>454</line>
+          <properties />
+          <option name="timeStamp" value="492" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActBinItemSelection.java</url>
+          <line>455</line>
+          <properties />
+          <option name="timeStamp" value="494" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActBinItemSelection.java</url>
+          <line>196</line>
+          <properties />
+          <option name="timeStamp" value="498" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActBinItemSelection.java</url>
+          <line>242</line>
+          <properties />
+          <option name="timeStamp" value="499" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActBinItemSelection.java</url>
+          <line>243</line>
+          <properties />
+          <option name="timeStamp" value="501" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActMoveChooser.java</url>
+          <line>152</line>
+          <properties />
+          <option name="timeStamp" value="549" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java</url>
+          <line>1063</line>
+          <properties />
+          <option name="timeStamp" value="554" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>545</line>
+          <properties />
+          <option name="timeStamp" value="562" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>564</line>
+          <properties />
+          <option name="timeStamp" value="564" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>563</line>
+          <properties />
+          <option name="timeStamp" value="565" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>592</line>
+          <properties />
+          <option name="timeStamp" value="566" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>530</line>
+          <properties />
+          <option name="timeStamp" value="567" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>677</line>
+          <properties />
+          <option name="timeStamp" value="576" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>675</line>
+          <properties />
+          <option name="timeStamp" value="577" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>568</line>
+          <properties />
+          <option name="timeStamp" value="579" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>933</line>
+          <properties />
+          <option name="timeStamp" value="581" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>1013</line>
+          <properties />
+          <option name="timeStamp" value="582" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>1064</line>
+          <properties />
+          <option name="timeStamp" value="584" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>1066</line>
+          <properties />
+          <option name="timeStamp" value="585" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>594</line>
+          <properties />
+          <option name="timeStamp" value="588" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>595</line>
+          <properties />
+          <option name="timeStamp" value="591" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>593</line>
+          <properties />
+          <option name="timeStamp" value="592" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>608</line>
+          <properties />
+          <option name="timeStamp" value="593" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>610</line>
+          <properties />
+          <option name="timeStamp" value="594" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>597</line>
+          <properties />
+          <option name="timeStamp" value="595" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>683</line>
+          <properties />
+          <option name="timeStamp" value="596" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>598</line>
+          <properties />
+          <option name="timeStamp" value="599" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>607</line>
+          <properties />
+          <option name="timeStamp" value="600" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>685</line>
+          <properties />
+          <option name="timeStamp" value="602" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>580</line>
+          <properties />
+          <option name="timeStamp" value="604" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>581</line>
+          <properties />
+          <option name="timeStamp" value="609" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>611</line>
+          <properties />
+          <option name="timeStamp" value="610" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>1251</line>
+          <properties />
+          <option name="timeStamp" value="611" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>238</line>
+          <properties />
+          <option name="timeStamp" value="613" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/QueryView.java</url>
+          <line>116</line>
+          <properties />
+          <option name="timeStamp" value="616" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>937</line>
+          <properties />
+          <option name="timeStamp" value="618" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>1428</line>
+          <properties />
+          <option name="timeStamp" value="619" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>1311</line>
+          <properties />
+          <option name="timeStamp" value="620" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>1312</line>
+          <properties />
+          <option name="timeStamp" value="621" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>1407</line>
+          <properties />
+          <option name="timeStamp" value="622" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java</url>
+          <line>592</line>
+          <properties />
+          <option name="timeStamp" value="623" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java</url>
+          <line>596</line>
+          <properties />
+          <option name="timeStamp" value="626" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java</url>
+          <line>489</line>
+          <properties />
+          <option name="timeStamp" value="628" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java</url>
+          <line>553</line>
+          <properties />
+          <option name="timeStamp" value="629" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>1079</line>
+          <properties />
+          <option name="timeStamp" value="632" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>1017</line>
+          <properties />
+          <option name="timeStamp" value="633" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>1016</line>
+          <properties />
+          <option name="timeStamp" value="634" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>302</line>
+          <properties />
+          <option name="timeStamp" value="635" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>304</line>
+          <properties />
+          <option name="timeStamp" value="636" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>316</line>
+          <properties />
+          <option name="timeStamp" value="637" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>306</line>
+          <properties />
+          <option name="timeStamp" value="638" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>312</line>
+          <properties />
+          <option name="timeStamp" value="639" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>310</line>
+          <properties />
+          <option name="timeStamp" value="640" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>1047</line>
+          <properties />
+          <option name="timeStamp" value="644" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>1103</line>
+          <properties />
+          <option name="timeStamp" value="646" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>1068</line>
+          <properties />
+          <option name="timeStamp" value="647" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/messagequeue/HttpMessageResolver.java</url>
+          <line>225</line>
+          <properties />
+          <option name="timeStamp" value="654" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActBinItemSelection.java</url>
+          <line>364</line>
+          <properties />
+          <option name="timeStamp" value="655" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActBinItemSelection.java</url>
+          <line>377</line>
+          <properties />
+          <option name="timeStamp" value="656" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActBinItemSelection.java</url>
+          <line>386</line>
+          <properties />
+          <option name="timeStamp" value="664" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinProductMain.java</url>
+          <line>796</line>
+          <properties />
+          <option name="timeStamp" value="665" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinProductMain.java</url>
+          <line>810</line>
+          <properties />
+          <option name="timeStamp" value="666" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinProductMain.java</url>
+          <line>805</line>
+          <properties />
+          <option name="timeStamp" value="668" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinProductMain.java</url>
+          <line>806</line>
+          <properties />
+          <option name="timeStamp" value="670" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinProductMain.java</url>
+          <line>476</line>
+          <properties />
+          <option name="timeStamp" value="679" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinProductMain.java</url>
+          <line>477</line>
+          <properties />
+          <option name="timeStamp" value="680" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinProductMain.java</url>
+          <line>478</line>
+          <properties />
+          <option name="timeStamp" value="681" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinProductMain.java</url>
+          <line>495</line>
+          <properties />
+          <option name="timeStamp" value="686" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinProductMain.java</url>
+          <line>498</line>
+          <properties />
+          <option name="timeStamp" value="687" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinProductMain.java</url>
+          <line>497</line>
+          <properties />
+          <option name="timeStamp" value="688" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinProductMain.java</url>
+          <line>892</line>
+          <properties />
+          <option name="timeStamp" value="689" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinProductMain.java</url>
+          <line>815</line>
+          <properties />
+          <option name="timeStamp" value="707" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinProductMain.java</url>
+          <line>902</line>
+          <properties />
+          <option name="timeStamp" value="709" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinProductMain.java</url>
+          <line>901</line>
+          <properties />
+          <option name="timeStamp" value="710" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinProductMain.java</url>
+          <line>933</line>
+          <properties />
+          <option name="timeStamp" value="711" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinProductMain.java</url>
+          <line>932</line>
+          <properties />
+          <option name="timeStamp" value="712" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java</url>
+          <line>591</line>
+          <properties />
+          <option name="timeStamp" value="713" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java</url>
+          <line>710</line>
+          <properties />
+          <option name="timeStamp" value="716" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java</url>
+          <line>713</line>
+          <properties />
+          <option name="timeStamp" value="717" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java</url>
+          <line>711</line>
+          <properties />
+          <option name="timeStamp" value="718" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java</url>
+          <line>598</line>
+          <properties />
+          <option name="timeStamp" value="719" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/fragments/QuantityDialogFragment.java</url>
+          <line>203</line>
+          <properties />
+          <option name="timeStamp" value="729" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/fragments/QuantityDialogFragment.java</url>
+          <line>190</line>
+          <properties />
+          <option name="timeStamp" value="731" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/fragments/QuantityDialogFragment.java</url>
+          <line>194</line>
+          <properties />
+          <option name="timeStamp" value="745" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>1021</line>
+          <properties />
+          <option name="timeStamp" value="760" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java</url>
+          <line>1073</line>
+          <properties />
+          <option name="timeStamp" value="762" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActInfo.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="763" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActBinItemSelection.java</url>
+          <line>140</line>
+          <properties />
+          <option name="timeStamp" value="765" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActChooser.java</url>
+          <line>101</line>
+          <properties />
+          <option name="timeStamp" value="768" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinProductMain.java</url>
+          <line>1026</line>
+          <properties />
+          <option name="timeStamp" value="771" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinProductMain.java</url>
+          <line>1009</line>
+          <properties />
+          <option name="timeStamp" value="772" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinProductMain.java</url>
+          <line>1045</line>
+          <properties />
+          <option name="timeStamp" value="773" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinProductMain.java</url>
+          <line>1021</line>
+          <properties />
+          <option name="timeStamp" value="775" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinProductMain.java</url>
+          <line>757</line>
+          <properties />
+          <option name="timeStamp" value="776" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinProductMain.java</url>
+          <line>776</line>
+          <properties />
+          <option name="timeStamp" value="777" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinProductMain.java</url>
+          <line>463</line>
+          <properties />
+          <option name="timeStamp" value="782" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinProductMain.java</url>
+          <line>453</line>
+          <properties />
+          <option name="timeStamp" value="786" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActBinItemSelection.java</url>
+          <line>361</line>
+          <properties />
+          <option name="timeStamp" value="787" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActBinItemSelection.java</url>
+          <line>130</line>
+          <properties />
+          <option name="timeStamp" value="788" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="789" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="atlassian-ide-plugin-workspace">
+    <option name="bambooConfiguration">
+      <BambooWorkspaceConfiguration>
+        <option name="view">
+          <BambooViewConfigurationBean />
+        </option>
+      </BambooWorkspaceConfiguration>
+    </option>
+    <option name="defaultCredentials">
+      <UserCfgBean />
+    </option>
+  </component>
+  <component name="atlassian-ide-plugin-workspace-issues">
+    <option name="view">
+      <JiraViewConfigurationBean>
+        <option name="viewFilterId" value="" />
+      </JiraViewConfigurationBean>
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/proper/servicetasks/ScheduleReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="714">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveServiceReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="391">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/ActMoveChooser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.42249656" vertical-offset="563" max-vertical-offset="2312">
+          <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/ActInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09327846" vertical-offset="0" max-vertical-offset="729">
+          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          <folding>
+            <element signature="docComment;class#ActInfo#0" expanded="false" />
+            <element signature="method#onCreate#0;class#ActInfo#0" expanded="false" />
+            <element signature="method#lvMessages_Item_clicked#0;class#ActInfo#0" expanded="false" />
+            <element signature="method#lvAction_Item_Clicked#0;class#ActInfo#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/ActSingleDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6268861" vertical-offset="87" max-vertical-offset="1785">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/lyt_singledetailsmain.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-small/lyt_singledetailsmain.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-small/lyt_singlemain.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/lyt_binmain.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47325101" vertical-offset="229" max-vertical-offset="3077">
+          <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2881041" vertical-offset="1715" max-vertical-offset="6171">
+          <caret line="157" column="67" selection-start-line="157" selection-start-column="67" selection-end-line="157" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/AndroidDev/android-sdk/sources/android-19/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33286318" vertical-offset="57955" max-vertical-offset="322830">
+          <caret line="3520" column="0" selection-start-line="3520" selection-start-column="0" selection-end-line="3520" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/AndroidDev/android-sdk/sources/android-19/android/widget/TextView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33286318" vertical-offset="125190" max-vertical-offset="150671">
+          <caret line="7690" column="0" selection-start-line="7690" selection-start-column="0" selection-end-line="7690" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/lyt_chooser.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1224">
+          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/button_blue.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.024147727" vertical-offset="255" max-vertical-offset="1003">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-v11/themes_lebelblue.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="729">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/dialog_productdetails.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22599705" vertical-offset="0" max-vertical-offset="677">
+          <caret line="289" column="41" selection-start-line="289" selection-start-column="41" selection-end-line="289" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/fragments/fgmSingleItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1399177" vertical-offset="0" max-vertical-offset="1054">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/lyt_binitem_selection.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3119266" vertical-offset="0" max-vertical-offset="1054">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/anim/rotate.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09659091" vertical-offset="0" max-vertical-offset="704">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/anim/activity_close_scale.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38636363" vertical-offset="0" max-vertical-offset="704">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/anim/activity_close_translate.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19318181" vertical-offset="0" max-vertical-offset="704">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/anim/activity_open_scale.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07244318" vertical-offset="0" max-vertical-offset="704">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/anim/activity_open_translate.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14488636" vertical-offset="0" max-vertical-offset="704">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/anim/bottom_in.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="729">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/lyt_querychooser.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1557252" vertical-offset="0" max-vertical-offset="1105">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/ActQueryChooser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="460" max-vertical-offset="1190">
+          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/lyt_bindetails.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.9807692" vertical-offset="0" max-vertical-offset="1241">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/ActBinDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09315068" vertical-offset="612" max-vertical-offset="1513">
+          <caret line="78" column="67" selection-start-line="78" selection-start-column="67" selection-end-line="78" selection-end-column="67" />
+          <folding>
+            <element signature="docComment;class#ActBinDetails#0" expanded="false" />
+            <element signature="method#onPause#0;class#ActBinDetails#0" expanded="false" />
+            <element signature="method#onResume#0;class#ActBinDetails#0" expanded="false" />
+            <element signature="method#onActivityResult#0;class#ActBinDetails#0" expanded="false" />
+            <element signature="method#onDialogMessage#0;class#ActBinDetails#0" expanded="false" />
+            <element signature="method#showDialog#0;class#ActBinDetails#0" expanded="false" />
+            <element signature="class#wsSendQueue#0;class#ActBinDetails#0" expanded="false" />
+            <element signature="method#onPostExecute#0;class#wsSendQueue#0;class#ActBinDetails#0" expanded="false" />
+            <element signature="method#doInBackground#0;class#wsSendQueue#0;class#ActBinDetails#0" expanded="false" />
+            <element signature="method#onPreExecute#0;class#wsSendQueue#0;class#ActBinDetails#0" expanded="false" />
+            <element signature="method#onCancelled#0;class#wsSendQueue#0;class#ActBinDetails#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinProductMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="376" max-vertical-offset="2414">
+          <caret line="90" column="43" selection-start-line="90" selection-start-column="43" selection-end-line="90" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/fragments/ProductDetailsDialogFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5109589" vertical-offset="137" max-vertical-offset="1054">
+          <caret line="41" column="80" selection-start-line="41" selection-start-column="80" selection-end-line="41" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/lyt_login.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.050147492" vertical-offset="0" max-vertical-offset="678">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/fragments/QuantityDialogFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62739724" vertical-offset="613" max-vertical-offset="1343">
+          <caret line="293" column="53" selection-start-line="293" selection-start-column="53" selection-end-line="293" selection-end-column="53" />
+          <folding>
+            <element signature="docComment;class#QuantityDialogFragment#0" expanded="false" />
+            <element signature="method#ConvertPixelsToDp#0;class#QuantityDialogFragment#0" expanded="false" />
+            <element signature="method#onAttach#0;class#QuantityDialogFragment#0" expanded="false" />
+            <element signature="method#onCreateView#0;class#QuantityDialogFragment#0" expanded="false" />
+            <element signature="e#1980#2049#0" expanded="false" />
+            <element signature="e#2712#2747#0" expanded="false" />
+            <element signature="e#3395#3470#0" expanded="false" />
+            <element signature="e#4188#4218#0" expanded="false" />
+            <element signature="method#updateControls#0;class#QuantityDialogFragment#0" expanded="false" />
+            <element signature="method#showSoftKeyboard#0;class#QuantityDialogFragment#0" expanded="false" />
+            <element signature="method#manageInputByHand#0;class#QuantityDialogFragment#0" expanded="false" />
+            <element signature="method#paintByHandButtons#0;class#QuantityDialogFragment#0" expanded="false" />
+            <element signature="method#selectAll#0;class#QuantityDialogFragment#0" expanded="false" />
+            <element signature="method#onClick#0;class#QuantityDialogFragment#0" expanded="false" />
+            <element signature="class#TextChanged#0;class#QuantityDialogFragment#0" expanded="false" />
+            <element signature="method#beforeTextChanged#0;class#TextChanged#0;class#QuantityDialogFragment#0" expanded="false" />
+            <element signature="method#onTextChanged#0;class#TextChanged#0;class#QuantityDialogFragment#0" expanded="false" />
+            <element signature="method#afterTextChanged#0;class#TextChanged#0;class#QuantityDialogFragment#0" expanded="false" />
+            <element signature="e#12389#12438#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/dimens_lebelblue.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="729">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/dialog_quantity.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15044248" vertical-offset="136" max-vertical-offset="3179">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/styles_lebelblue.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3134752" vertical-offset="765" max-vertical-offset="2108">
+          <caret line="58" column="51" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/ActBinItemSelection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4890411" vertical-offset="0" max-vertical-offset="1462">
+          <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
+          <folding>
+            <element signature="docComment;class#ActBinItemSelection#0" expanded="false" />
+            <element signature="method#onCreate#0;class#ActBinItemSelection#0" expanded="false" />
+            <element signature="method#onListItemClick#0;class#ActBinItemSelection#0" expanded="false" />
+            <element signature="method#ButtonClicked#0;class#ActBinItemSelection#0" expanded="false" />
+            <element signature="method#onCreateContextMenu#0;class#ActBinItemSelection#0" expanded="false" />
+            <element signature="class#MoveQrytask#0;class#ActBinItemSelection#0" expanded="false" />
+            <element signature="method#onPreExecute#0;class#MoveQrytask#0;class#ActBinItemSelection#0" expanded="false" />
+            <element signature="method#doInBackground#0;class#MoveQrytask#0;class#ActBinItemSelection#0" expanded="false" />
+            <element signature="method#onPostExecute#0;class#MoveQrytask#0;class#ActBinItemSelection#0" expanded="false" />
+            <element signature="method#onCancelled#0;class#MoveQrytask#0;class#ActBinItemSelection#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/messagequeue/HttpMessageResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5589041" vertical-offset="0" max-vertical-offset="884">
+          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+          <folding>
+            <element signature="method#resolveMessageQuery#0;class#HttpMessageResolver#0" expanded="false" />
+            <element signature="method#resolveMessageQueue#0;class#HttpMessageResolver#0" expanded="false" />
+            <element signature="method#resolveMessageQueueAsync#0;class#HttpMessageResolver#0" expanded="false" />
+            <element signature="method#resolveContacts#0;class#HttpMessageResolver#0" expanded="false" />
+            <element signature="method#hasActiveInternetConnection#0;class#HttpMessageResolver#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveServiceReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/utils/MethodsCompact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5604396" vertical-offset="0" max-vertical-offset="728">
+          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+          <folding>
+            <element signature="docComment;class#MethodsCompact#0" expanded="false" />
+            <element signature="method#getThumbnail#0;class#MethodsCompact#0" expanded="false" />
+            <element signature="method#getExternalCacheDir#0;class#MethodsCompact#0" expanded="false" />
+            <element signature="e#1087#1142#0" expanded="false" />
+            <element signature="method#recreate#0;class#MethodsCompact#0" expanded="false" />
+            <element signature="method#setLayerType#0;class#MethodsCompact#0" expanded="false" />
+            <element signature="method#setUiOptions#0;class#MethodsCompact#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/utils/FileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.8447802" vertical-offset="836" max-vertical-offset="1870">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#FileUtils#0" expanded="false" />
+            <element signature="docComment;method#write#0;class#FileUtils#0" expanded="false" />
+            <element signature="method#write#0;class#FileUtils#0" expanded="false" />
+            <element signature="method#writeFile#0;class#FileUtils#0" expanded="false" />
+            <element signature="docComment;method#read#0;class#FileUtils#0" expanded="false" />
+            <element signature="method#read#0;class#FileUtils#0" expanded="false" />
+            <element signature="method#readInStream#0;class#FileUtils#0" expanded="false" />
+            <element signature="docComment;method#readFile#0;class#FileUtils#0" expanded="false" />
+            <element signature="method#readFile#0;class#FileUtils#0" expanded="false" />
+            <element signature="method#createFile#0;class#FileUtils#0" expanded="false" />
+            <element signature="docComment;method#writeFile#1;class#FileUtils#0" expanded="false" />
+            <element signature="method#writeFile#1;class#FileUtils#0" expanded="false" />
+            <element signature="docComment;method#getFileName#0;class#FileUtils#0" expanded="false" />
+            <element signature="method#getFileName#0;class#FileUtils#0" expanded="false" />
+            <element signature="docComment;method#getFileNameNoFormat#0;class#FileUtils#0" expanded="false" />
+            <element signature="method#getFileNameNoFormat#0;class#FileUtils#0" expanded="false" />
+            <element signature="docComment;method#getFileFormat#0;class#FileUtils#0" expanded="false" />
+            <element signature="method#getFileFormat#0;class#FileUtils#0" expanded="false" />
+            <element signature="docComment;method#getFileSize#0;class#FileUtils#0" expanded="false" />
+            <element signature="method#getFileSize#0;class#FileUtils#0" expanded="false" />
+            <element signature="docComment;method#getFileSize#1;class#FileUtils#0" expanded="false" />
+            <element signature="method#getFileSize#1;class#FileUtils#0" expanded="false" />
+            <element signature="docComment;method#formatFileSize#0;class#FileUtils#0" expanded="false" />
+            <element signature="method#formatFileSize#0;class#FileUtils#0" expanded="false" />
+            <element signature="docComment;method#getDirSize#0;class#FileUtils#0" expanded="false" />
+            <element signature="method#getDirSize#0;class#FileUtils#0" expanded="false" />
+            <element signature="docComment;method#getFileList#0;class#FileUtils#0" expanded="false" />
+            <element signature="method#getFileList#0;class#FileUtils#0" expanded="false" />
+            <element signature="method#toBytes#0;class#FileUtils#0" expanded="false" />
+            <element signature="docComment;method#checkFileExists#0;class#FileUtils#0" expanded="false" />
+            <element signature="method#checkFileExists#0;class#FileUtils#0" expanded="false" />
+            <element signature="docComment;method#checkFilePathExists#0;class#FileUtils#0" expanded="false" />
+            <element signature="docComment;method#getFreeDiskSpace#0;class#FileUtils#0" expanded="false" />
+            <element signature="method#getFreeDiskSpace#0;class#FileUtils#0" expanded="false" />
+            <element signature="docComment;method#createDirectory#0;class#FileUtils#0" expanded="false" />
+            <element signature="method#createDirectory#0;class#FileUtils#0" expanded="false" />
+            <element signature="docComment;method#checkSaveLocationExists#0;class#FileUtils#0" expanded="false" />
+            <element signature="method#checkSaveLocationExists#0;class#FileUtils#0" expanded="false" />
+            <element signature="docComment;method#deleteDirectory#0;class#FileUtils#0" expanded="false" />
+            <element signature="method#deleteDirectory#0;class#FileUtils#0" expanded="false" />
+            <element signature="e#11618#11677#0" expanded="false" />
+            <element signature="docComment;method#deleteFile#0;class#FileUtils#0" expanded="false" />
+            <element signature="method#deleteFile#0;class#FileUtils#0" expanded="false" />
+            <element signature="docComment;method#deleteBlankPath#0;class#FileUtils#0" expanded="false" />
+            <element signature="method#deleteBlankPath#0;class#FileUtils#0" expanded="false" />
+            <element signature="docComment;method#reNamePath#0;class#FileUtils#0" expanded="false" />
+            <element signature="method#reNamePath#0;class#FileUtils#0" expanded="false" />
+            <element signature="docComment;method#deleteFileWithPath#0;class#FileUtils#0" expanded="false" />
+            <element signature="method#deleteFileWithPath#0;class#FileUtils#0" expanded="false" />
+            <element signature="docComment;method#getSDRoot#0;class#FileUtils#0" expanded="false" />
+            <element signature="method#getSDRoot#0;class#FileUtils#0" expanded="false" />
+            <element signature="docComment;method#listPath#0;class#FileUtils#0" expanded="false" />
+            <element signature="method#listPath#0;class#FileUtils#0" expanded="false" />
+            <element signature="class#PathStatus#0;class#FileUtils#0" expanded="false" />
+            <element signature="docComment;method#createPath#0;class#FileUtils#0" expanded="false" />
+            <element signature="method#createPath#0;class#FileUtils#0" expanded="false" />
+            <element signature="docComment;method#getPathName#0;class#FileUtils#0" expanded="false" />
+            <element signature="method#getPathName#0;class#FileUtils#0" expanded="false" />
+            <element signature="docComment;method#copyFile#0;class#FileUtils#0" expanded="false" />
+            <element signature="method#copyFile#0;class#FileUtils#0" expanded="false" />
+            <element signature="docComment;method#copyFolder#0;class#FileUtils#0" expanded="false" />
+            <element signature="method#copyFolder#0;class#FileUtils#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/ActChooser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.046703298" vertical-offset="510" max-vertical-offset="3094">
+          <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+          <folding>
+            <element signature="docComment;class#ActChooser#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09855072" vertical-offset="0" max-vertical-offset="3196">
+          <caret line="4" column="165" selection-start-line="4" selection-start-column="165" selection-end-line="4" selection-end-column="165" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/utils/UIHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1258">
+          <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23351648" vertical-offset="0" max-vertical-offset="1615">
+          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3228022" vertical-offset="462" max-vertical-offset="1258">
+          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="docComment;class#AppConfig#0" expanded="false" />
+            <element signature="method#getAppConfig#0;class#AppConfig#0" expanded="false" />
+            <element signature="docComment;method#getSharedPreferences#0;class#AppConfig#0" expanded="false" />
+            <element signature="method#getSharedPreferences#0;class#AppConfig#0" expanded="false" />
+            <element signature="docComment;method#isMethodsCompat#0;class#AppConfig#0" expanded="false" />
+            <element signature="method#isMethodsCompat#0;class#AppConfig#0" expanded="false" />
+            <element signature="docComment;method#isLoadImage#0;class#AppConfig#0" expanded="false" />
+            <element signature="method#isLoadImage#0;class#AppConfig#0" expanded="false" />
+            <element signature="method#get#0;class#AppConfig#0" expanded="false" />
+            <element signature="method#get#1;class#AppConfig#0" expanded="false" />
+            <element signature="method#setProps#0;class#AppConfig#0" expanded="false" />
+            <element signature="method#set#0;class#AppConfig#0" expanded="false" />
+            <element signature="method#set#1;class#AppConfig#0" expanded="false" />
+            <element signature="method#remove#0;class#AppConfig#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/AppContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.1758242" vertical-offset="1788" max-vertical-offset="2771">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#AppContext#0" expanded="false" />
+            <element signature="method#onCreate#0;class#AppContext#0" expanded="false" />
+            <element signature="e#2299#2346#0" expanded="false" />
+            <element signature="docComment;method#init#0;class#AppContext#0" expanded="false" />
+            <element signature="method#init#0;class#AppContext#0" expanded="false" />
+            <element signature="e#2553#2614#0" expanded="false" />
+            <element signature="e#3286#3340#0" expanded="false" />
+            <element signature="docComment;method#getDeviceNum#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#getLocalMacAddress#0;class#AppContext#0" expanded="false" />
+            <element signature="method#getLocalMacAddress#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#isAudioNormal#0;class#AppContext#0" expanded="false" />
+            <element signature="method#isAudioNormal#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#isAppSound#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#isVoice#0;class#AppContext#0" expanded="false" />
+            <element signature="method#isVoice#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#setConfigVoice#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#playSound#0;class#AppContext#0" expanded="false" />
+            <element signature="method#playSound#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#isNetworkConnected#0;class#AppContext#0" expanded="false" />
+            <element signature="method#isNetworkConnected#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#getNetworkType#0;class#AppContext#0" expanded="false" />
+            <element signature="method#getNetworkType#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#isMethodsCompat#0;class#AppContext#0" expanded="false" />
+            <element signature="method#isMethodsCompat#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#getPackageInfo#0;class#AppContext#0" expanded="false" />
+            <element signature="method#getPackageInfo#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#getAppId#0;class#AppContext#0" expanded="false" />
+            <element signature="method#getAppId#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#isLoadImage#0;class#AppContext#0" expanded="false" />
+            <element signature="method#isLoadImage#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#setConfigLoadimage#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#isCheckUp#0;class#AppContext#0" expanded="false" />
+            <element signature="method#isCheckUp#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#setConfigCheckUp#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#cleanCookie#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#isReadDataCache#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#isExistDataCache#0;class#AppContext#0" expanded="false" />
+            <element signature="method#isExistDataCache#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#isCacheDataFailure#0;class#AppContext#0" expanded="false" />
+            <element signature="method#isCacheDataFailure#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#clearAppCache#0;class#AppContext#0" expanded="false" />
+            <element signature="method#clearAppCache#0;class#AppContext#0" expanded="false" />
+            <element signature="e#11347#11372#0" expanded="false" />
+            <element signature="method#clearCacheFolder#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#setMemCache#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#getMemCache#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#setDiskCache#0;class#AppContext#0" expanded="false" />
+            <element signature="method#setDiskCache#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#getDiskCache#0;class#AppContext#0" expanded="false" />
+            <element signature="method#getDiskCache#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#saveObject#0;class#AppContext#0" expanded="false" />
+            <element signature="method#saveObject#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#readObject#0;class#AppContext#0" expanded="false" />
+            <element signature="method#readObject#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#getSaveImagePath#0;class#AppContext#0" expanded="false" />
+            <element signature="method#containsProperty#0;class#AppContext#0" expanded="false" />
+            <element signature="method#getDensity#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#showInputMethod#0;class#AppContext#0" expanded="false" />
+            <element signature="method#showInputMethod#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#closeInputMethod#0;class#AppContext#0" expanded="false" />
+            <element signature="method#closeInputMethod#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#saveRecords#0;class#AppContext#0" expanded="false" />
+            <element signature="method#saveRecords#0;class#AppContext#0" expanded="false" />
+            <element signature="docComment;method#isServiceRunning#0;class#AppContext#0" expanded="false" />
+            <element signature="method#isServiceRunning#0;class#AppContext#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/AppManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11675824" vertical-offset="0" max-vertical-offset="728">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="docComment;class#AppManager#0" expanded="false" />
+            <element signature="method#AppManager#0;class#AppManager#0" expanded="false" />
+            <element signature="method#getAppManager#0;class#AppManager#0" expanded="false" />
+            <element signature="method#addActivity#0;class#AppManager#0" expanded="false" />
+            <element signature="method#currentActivity#0;class#AppManager#0" expanded="false" />
+            <element signature="method#finishActivity#0;class#AppManager#0" expanded="false" />
+            <element signature="method#finishActivity#1;class#AppManager#0" expanded="false" />
+            <element signature="method#finishActivity#2;class#AppManager#0" expanded="false" />
+            <element signature="method#AppExit#0;class#AppManager#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="139" max-vertical-offset="867">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/ActLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1139">
+          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/servicetasks/ScheduleReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8947368" vertical-offset="0" max-vertical-offset="731">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android (BinMove)|Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Android API 19 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>UnitTest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>android-support-v7-appcompat</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
