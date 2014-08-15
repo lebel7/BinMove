@@ -162,19 +162,8 @@
     <bookmark url="file://$PROJECT_DIR$/src/com/proper/data/adapters/BarcodeResponseAdapter.java" line="123" mnemonic="2" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d88915d4-1e09-49f7-8396-5fcb659d1593" name="Default" comment="Implemented additional support to the Spanning Tree Protocol on the software level.&#10;This is in the form of a service that runs in the background continuously and forces a new connection to the strongest Endpoint signal level in real-time depending on the distance relative to the nearest endpoint.&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/data/BinMoveServiceConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/utils/NetUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/servicetasks/WifiElectUpdater.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/data/WifiObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/servicetasks/WifiReceiver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/utils/WifiSignalLevelSorter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/binmove/AppContext.java" afterPath="$PROJECT_DIR$/src/com/proper/binmove/AppContext.java" />
+    <list default="true" id="d88915d4-1e09-49f7-8396-5fcb659d1593" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java" afterPath="$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveServiceReceiver.java" afterPath="$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveServiceReceiver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/messagequeue/HttpMessageResolver.java" afterPath="$PROJECT_DIR$/src/com/proper/messagequeue/HttpMessageResolver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BinMove.iws" />
@@ -948,7 +937,7 @@
       <workItem from="1407852382986" duration="804000" />
       <workItem from="1407918432409" duration="22795000" />
       <workItem from="1408004883105" duration="27214000" />
-      <workItem from="1408090762336" duration="8604000" />
+      <workItem from="1408090762336" duration="9817000" />
     </task>
     <task id="LOCAL-00001" summary="Deleted the UnitTest project and fixed some UI bugs identified by Aaron and aligned some other program sequences in correct order.">
       <created>1406114107883</created>
@@ -958,11 +947,15 @@
       <created>1406899440124</created>
       <updated>1406899440124</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implemented additional support to the Spanning Tree Protocol on the software level.&#10;This is in the form of a service that runs in the background continuously and forces a new connection to the strongest Endpoint signal level in real-time depending on the distance relative to the nearest endpoint.&#10;">
+      <created>1408105404808</created>
+      <updated>1408105404808</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1750660000" />
+    <option name="totallyTimeSpent" value="1751873000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1002,8 +995,8 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32778355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19669509" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29740933" sideWeight="0.49946696" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21243523" sideWeight="0.49946696" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29740933" sideWeight="0.49946696" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21243523" sideWeight="0.49946696" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32674298" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1068,6 +1061,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
@@ -1078,7 +1072,6 @@
     <MESSAGE value="radically changed the software on the architecture level so that we can then leverage some various design patterns in java" />
     <MESSAGE value="Implemented additional support to the Spanning Tree Protocol on the software level.&#10;This is in the form of a service that runs in the background continuously and forces a new connection to the strongest Endpoint signal level in real-time depending on the distance relative to the nearest endpoint.&#10;" />
     <option name="LAST_COMMIT_MESSAGE" value="Implemented additional support to the Spanning Tree Protocol on the software level.&#10;This is in the form of a service that runs in the background continuously and forces a new connection to the strongest Endpoint signal level in real-time depending on the distance relative to the nearest endpoint.&#10;" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2709,8 +2702,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16078985" vertical-offset="277" max-vertical-offset="986">
-          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.48803827" vertical-offset="0" max-vertical-offset="986">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
           <folding>
             <element signature="docComment;class#BinMoveService#0" expanded="false" />
             <element signature="method#onCreate#0;class#BinMoveService#0" expanded="false" />
@@ -2738,7 +2731,7 @@
             <element signature="method#addPropertyChangeListener#0;class#Configurator#0;class#BinMoveService#0" expanded="false" />
             <element signature="class#WifiLevelReceiver#0;class#BinMoveService#0" expanded="false" />
             <element signature="method#onReceive#0;class#WifiLevelReceiver#0;class#BinMoveService#0" expanded="false" />
-            <element signature="e#16753#16811#0" expanded="false" />
+            <element signature="e#16798#16856#0" expanded="false" />
           </folding>
         </state>
       </provider>

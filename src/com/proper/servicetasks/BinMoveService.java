@@ -361,12 +361,12 @@ public class BinMoveService extends Service {
 
             //Layout our accepted parameters
             String[] acceptedParam = {res.getString(R.string.ENDPOINT_THE2S), res.getString(R.string.ENDPOINT_AMAZONDISPATCH),
-                    res.getString(R.string.ENDPOINT_THE4S), res.getString(R.string.ENDPOINT_BACKSTOCK8)};
+                    res.getString(R.string.ENDPOINT_THE4S), res.getString(R.string.ENDPOINT_BACKSTOCK8), res.getString(R.string.ENDPOINT_EXPORT)};
 
             if (wifiResults != null && !wifiResults.isEmpty()) {
                 for (int i = 0; i < wifiResults.size(); i++) {
 
-                    //if the current info == our authorized list of endpoint then continue
+                    //if the current info is in our list of authorized endpoints then continue
                     if (!(Arrays.binarySearch(acceptedParam, wifiResults.get(i).BSSID) == -1)) {
                         connections.add(wifiResults.get(i));
                     }
