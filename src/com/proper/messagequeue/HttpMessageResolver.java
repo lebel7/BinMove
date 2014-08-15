@@ -51,7 +51,7 @@ public class HttpMessageResolver implements IHttpMessageResolver {
     }
 
     public String getDefaultConfig() {
-        return setConfig(R.integer.CONFIG_LIVESERVER);
+        return setConfig(R.integer.CONFIG_TESTSERVER);
     }
 
     public String setConfig(int configurqation) {

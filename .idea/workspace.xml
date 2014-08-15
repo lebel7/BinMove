@@ -162,111 +162,18 @@
     <bookmark url="file://$PROJECT_DIR$/src/com/proper/data/adapters/BarcodeResponseAdapter.java" line="123" mnemonic="2" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d88915d4-1e09-49f7-8396-5fcb659d1593" name="Default" comment="radically changed the software on the architecture level so that we can then leverage some various design patterns in java">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/pmdlogo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/properlogo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/binmove/ActChooser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/binmove/ActLogin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/binmove/AppConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/binmove/AppContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/binmove/AppManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveServiceReceiver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/utils/DeviceUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/utils/FileUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/utils/MethodsCompact.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/fragments/ProductDetailsDialogFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/utils/SecUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/utils/UIHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/activity_close_scale.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/activity_close_translate.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/activity_open_scale.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/activity_open_translate.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/borderlist.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/bottom_in.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/dialog_productdetails.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/left_out.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/lyt_login.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-small/lyt_login.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/right_in.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/rotate.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/top_out.xml" />
-      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\UnitTest\UnitTest.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\UnitTest\libs\dagger-1.1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\UnitTest\libs\dagger-compiler-1.1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\UnitTest\libs\espresso-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\UnitTest\libs\guava-14.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\UnitTest\libs\hamcrest-core-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\UnitTest\libs\hamcrest-integration-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\UnitTest\libs\hamcrest-library-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\UnitTest\libs\javawriter-2.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\UnitTest\libs\javax.annotation-api-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\UnitTest\libs\javax.inject-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\UnitTest\libs\jsr305-1.3.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\UnitTest\libs\testrunner-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\UnitTest\libs\testrunner-runtime-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\gen\com\proper\bin2bin\Manifest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\gen\com\proper\bin2bin\R.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\android\barcode\Bin2BinService.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\bin2bin\ActChooser.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\servicetasks\Bin2BinServiceReceiver.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\Bin2Bin.iml" afterPath="$PROJECT_DIR$/BinMove.iml" />
-      <change type="MOVED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\gen\com\proper\bin2bin\BuildConfig.java" afterPath="$PROJECT_DIR$/gen/com/proper/binmove/BuildConfig.java" />
-      <change type="MOVED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\bin2bin\ActBinDetails.java" afterPath="$PROJECT_DIR$/src/com/proper/binmove/ActBinDetails.java" />
-      <change type="MOVED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\bin2bin\ActBinItemSelection.java" afterPath="$PROJECT_DIR$/src/com/proper/binmove/ActBinItemSelection.java" />
-      <change type="MOVED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\bin2bin\ActBinMoveMonitor.java" afterPath="$PROJECT_DIR$/src/com/proper/binmove/ActBinMoveMonitor.java" />
-      <change type="MOVED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\bin2bin\ActInfo.java" afterPath="$PROJECT_DIR$/src/com/proper/binmove/ActInfo.java" />
-      <change type="MOVED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\bin2bin\ActMoveChooser.java" afterPath="$PROJECT_DIR$/src/com/proper/binmove/ActMoveChooser.java" />
-      <change type="MOVED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\bin2bin\ActProductMoveDialog.java" afterPath="$PROJECT_DIR$/src/com/proper/binmove/ActProductMoveDialog.java" />
-      <change type="MOVED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\bin2bin\ActQueryChooser.java" afterPath="$PROJECT_DIR$/src/com/proper/binmove/ActQueryChooser.java" />
-      <change type="MOVED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\bin2bin\ActSingleDetails.java" afterPath="$PROJECT_DIR$/src/com/proper/binmove/ActSingleDetails.java" />
-      <change type="MOVED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\bin2bin\QuantityDialogFragment.java" afterPath="$PROJECT_DIR$/src/com/proper/fragments/QuantityDialogFragment.java" />
-      <change type="MOVED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\bin2bin\QueryView.java" afterPath="$PROJECT_DIR$/src/com/proper/binmove/QueryView.java" />
-      <change type="MOVED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\bin2bin\fgmSingleItem.java" afterPath="$PROJECT_DIR$/src/com/proper/fragments/fgmSingleItem.java" />
-      <change type="MOVED" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\bin2bin\fgmSingleItemDetails.java" afterPath="$PROJECT_DIR$/src/com/proper/fragments/fgmSingleItemDetails.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/barcode/ActBinMain.java" afterPath="$PROJECT_DIR$/src/com/android/barcode/ActBinMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinMain.java" afterPath="$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinProductMain.java" afterPath="$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinProductMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java" afterPath="$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java" afterPath="$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/barcode/ActSingleMain.java" afterPath="$PROJECT_DIR$/src/com/android/barcode/ActSingleMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chainway/ht/ui/ActSingleMain.java" afterPath="$PROJECT_DIR$/src/com/chainway/ht/ui/ActSingleMain.java" />
+    <list default="true" id="d88915d4-1e09-49f7-8396-5fcb659d1593" name="Default" comment="Implemented additional support to the Spanning Tree Protocol on the software level.&#10;This is in the form of a service that runs in the background continuously and forces a new connection to the strongest Endpoint signal level in real-time depending on the distance relative to the nearest endpoint.&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/data/BinMoveServiceConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/utils/NetUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/servicetasks/WifiElectUpdater.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/data/WifiObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/servicetasks/WifiReceiver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/proper/utils/WifiSignalLevelSorter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/data/adapters/BarcodeBinResponseAdapater.java" afterPath="$PROJECT_DIR$/src/com/proper/data/adapters/BarcodeBinResponseAdapater.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/data/adapters/BarcodeResponseAdapter.java" afterPath="$PROJECT_DIR$/src/com/proper/data/adapters/BarcodeResponseAdapter.java" />
-      <change type="MODIFICATION" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\messagequeue\BasicPublishWrapper.java" afterPath="$PROJECT_DIR$/src/com/proper/messagequeue/BasicPublishWrapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/data/adapters/BinListAdapter.java" afterPath="$PROJECT_DIR$/src/com/proper/data/adapters/BinListAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/data/adapters/BinResponseAdapter.java" afterPath="$PROJECT_DIR$/src/com/proper/data/adapters/BinResponseAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/data/adapters/BinResponseSelectionAdapter.java" afterPath="$PROJECT_DIR$/src/com/proper/data/adapters/BinResponseSelectionAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/data/helpers/DialogHelper.java" afterPath="$PROJECT_DIR$/src/com/proper/data/helpers/DialogHelper.java" />
-      <change type="MODIFICATION" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\messagequeue\HttpMessageResolver.java" afterPath="$PROJECT_DIR$/src/com/proper/messagequeue/HttpMessageResolver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/data/core/IHttpMessageResolver.java" afterPath="$PROJECT_DIR$/src/com/proper/data/core/IHttpMessageResolver.java" />
-      <change type="MODIFICATION" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\logger\LogHelper.java" afterPath="$PROJECT_DIR$/src/com/proper/logger/LogHelper.java" />
-      <change type="MODIFICATION" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\messagequeue\Message.java" afterPath="$PROJECT_DIR$/src/com/proper/messagequeue/Message.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/data/adapters/MoveActionAdapter.java" afterPath="$PROJECT_DIR$/src/com/proper/data/adapters/MoveActionAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/data/adapters/MoveMessageAdapter.java" afterPath="$PROJECT_DIR$/src/com/proper/data/adapters/MoveMessageAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/data/adapters/ProductBinAdapter.java" afterPath="$PROJECT_DIR$/src/com/proper/data/adapters/ProductBinAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/data/adapters/ProductBinAdapterOptimized.java" afterPath="$PROJECT_DIR$/src/com/proper/data/adapters/ProductBinAdapterOptimized.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/data/ProductBinSelection.java" afterPath="$PROJECT_DIR$/src/com/proper/data/ProductBinSelection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/data/adapters/ProductResponseAdapter.java" afterPath="$PROJECT_DIR$/src/com/proper/data/adapters/ProductResponseAdapter.java" />
-      <change type="MODIFICATION" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\messagequeue\QueueDeclaration.java" afterPath="$PROJECT_DIR$/src/com/proper/messagequeue/QueueDeclaration.java" />
-      <change type="MODIFICATION" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\messagequeue\RabbitMqHelper.java" afterPath="$PROJECT_DIR$/src/com/proper/messagequeue/RabbitMqHelper.java" />
-      <change type="MODIFICATION" beforePath="C:\Users\Lebel\IdeaProjects\BinMove\src\com\proper\servicetasks\ScheduleReceiver.java" afterPath="$PROJECT_DIR$/src/com/proper/servicetasks/ScheduleReceiver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/data/helpers/SoundHelper.java" afterPath="$PROJECT_DIR$/src/com/proper/data/helpers/SoundHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/utils/StringUtils.java" afterPath="$PROJECT_DIR$/src/com/proper/utils/StringUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/data/UserAuthenticator.java" afterPath="$PROJECT_DIR$/src/com/proper/data/UserAuthenticator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/border.xml" afterPath="$PROJECT_DIR$/res/drawable/border.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/button_blue.xml" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/button_blue.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/dialog_quantity.xml" afterPath="$PROJECT_DIR$/res/layout/dialog_quantity.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/lyt_binitem_selection.xml" afterPath="$PROJECT_DIR$/res/layout/lyt_binitem_selection.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/lyt_chooser.xml" afterPath="$PROJECT_DIR$/res/layout/lyt_chooser.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/lyt_querychooser.xml" afterPath="$PROJECT_DIR$/res/layout/lyt_querychooser.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/lyt_singledetailsmain.xml" afterPath="$PROJECT_DIR$/res/layout/lyt_singledetailsmain.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-small/lyt_singledetailsmain.xml" afterPath="$PROJECT_DIR$/res/layout-small/lyt_singledetailsmain.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/binmove/AppContext.java" afterPath="$PROJECT_DIR$/src/com/proper/binmove/AppContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java" afterPath="$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveServiceReceiver.java" afterPath="$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveServiceReceiver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/messagequeue/HttpMessageResolver.java" afterPath="$PROJECT_DIR$/src/com/proper/messagequeue/HttpMessageResolver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -288,10 +195,10 @@
     <SUITE FILE_PATH="coverage/BinMove$ActSingleDetails_Should_carryLoadInfo.coverage" NAME="ActSingleDetails_Should.carryLoadInfo Coverage Results" MODIFIED="1402330406910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.proper.BinMove.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/BinMove$ActChooserTest.coverage" NAME="ActChooserTest Coverage Results" MODIFIED="1405514128927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/BinMove$ActSingleDetails_Should.coverage" NAME="ActSingleDetails_Should Coverage Results" MODIFIED="1402331019191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.proper.BinMove.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/BinMove$ActSingleDetails_Should.coverage" NAME="ActSingleDetails_Should Coverage Results" MODIFIED="1402331019191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/BinMove$ActChooserTest.coverage" NAME="ActChooserTest Coverage Results" MODIFIED="1405514128927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.proper.BinMove.*</FILTER>
     </SUITE>
   </component>
@@ -445,68 +352,15 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <breakpoint_rules converted="true" />
     <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="BinMove" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="BinMoveService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="139" max-vertical-offset="867">
-              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActLogin.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/ActLogin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="884" max-vertical-offset="6375">
-              <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UIHelper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/proper/utils/UIHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="6001">
-              <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScheduleReceiver.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/proper/servicetasks/ScheduleReceiver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8947368" vertical-offset="0" max-vertical-offset="731">
-              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinMoveServiceReceiver.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveServiceReceiver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="391">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -524,15 +378,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/android/barcode/ActQueryScan.java" />
-        <option value="$PROJECT_DIR$/res/drawable/borderlist.xml" />
-        <option value="$PROJECT_DIR$/src/com/proper/data/ProductBinSelection.java" />
-        <option value="$PROJECT_DIR$/res/drawable/border.xml" />
-        <option value="$PROJECT_DIR$/res/layout/dialog_quantity.xml" />
-        <option value="$PROJECT_DIR$/src/ActExample.java" />
-        <option value="$PROJECT_DIR$/src/com/chainway/ht/ui/ActLogin.java" />
-        <option value="$PROJECT_DIR$/src/com/proper/utils/DeviceUtils.java" />
-        <option value="$PROJECT_DIR$/src/com/proper/utils/SecUtils.java" />
         <option value="$PROJECT_DIR$/res/layout/lyt_chooser.xml" />
         <option value="$PROJECT_DIR$/src/com/proper/utils/StringUtils.java" />
         <option value="$PROJECT_DIR$/src/com/proper/data/UserAuthenticator.java" />
@@ -566,15 +411,24 @@
         <option value="$PROJECT_DIR$/src/com/proper/ServiceTasks/ScheduleReceiver.java" />
         <option value="$PROJECT_DIR$/UnitTest/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/proper/ServiceTasks/BinMoveService.java" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/com/proper/utils/UIHelper.java" />
         <option value="$PROJECT_DIR$/src/com/proper/utils/MethodsCompact.java" />
         <option value="$PROJECT_DIR$/src/com/proper/utils/FileUtils.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/proper/binmove/AppContext.java" />
         <option value="$PROJECT_DIR$/src/com/proper/binmove/AppManager.java" />
         <option value="$PROJECT_DIR$/src/com/proper/binmove/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/com/proper/servicetasks/ScheduleReceiver.java" />
+        <option value="$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveServiceReceiver.java" />
+        <option value="$PROJECT_DIR$/src/com/proper/binmove/AppContext.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/proper/utils/WifiSignalLevelSorter.java" />
+        <option value="$PROJECT_DIR$/src/com/proper/servicetasks/WifiReceiver.java" />
+        <option value="$PROJECT_DIR$/src/com/proper/data/WifiObject.java" />
+        <option value="$PROJECT_DIR$/src/com/proper/data/BinMoveServiceConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/com/proper/utils/NetUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/proper/servicetasks/WifiElectUpdater.java" />
+        <option value="$PROJECT_DIR$/src/com/proper/messagequeue/HttpMessageResolver.java" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java" />
       </list>
     </option>
   </component>
@@ -582,7 +436,7 @@
     <option name="x" value="-1928" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1092" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -617,6 +471,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -625,20 +481,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BinMove" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BinMove" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1102,6 +946,9 @@
       <workItem from="1407831919869" duration="13080000" />
       <workItem from="1407848102630" duration="22000" />
       <workItem from="1407852382986" duration="804000" />
+      <workItem from="1407918432409" duration="22795000" />
+      <workItem from="1408004883105" duration="27214000" />
+      <workItem from="1408090762336" duration="8604000" />
     </task>
     <task id="LOCAL-00001" summary="Deleted the UnitTest project and fixed some UI bugs identified by Aaron and aligned some other program sequences in correct order.">
       <created>1406114107883</created>
@@ -1115,7 +962,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1692047000" />
+    <option name="totallyTimeSpent" value="1750660000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1138,11 +985,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1092" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20707597" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20621762" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32435232" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="-1920" y="377" width="1920" height="321" />
@@ -1155,15 +1002,15 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32778355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19669509" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29864725" sideWeight="0.49946696" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2130977" sideWeight="0.49946696" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29740933" sideWeight="0.49946696" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21243523" sideWeight="0.49946696" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32674298" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21268657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32154006" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32124352" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1176,33 +1023,33 @@
     </layout>
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882413" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20707597" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32418698" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20807454" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882413" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32778355" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19669509" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32995737" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32674298" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2228145" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21268657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3236212" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32154006" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16213334" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3257024" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" x="-1920" y="377" width="1920" height="321" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16693333" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32435232" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" x="-1920" y="377" width="1920" height="321" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3253638" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41415194" sideWeight="0.49895832" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3243243" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23626943" sideWeight="0.49895832" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30385014" sideWeight="0.49895832" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2226847" sideWeight="0.49895832" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29864725" sideWeight="0.49946696" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2130977" sideWeight="0.49946696" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1229,7 +1076,8 @@
     <MESSAGE value="Deleted the UnitTest project and fixed some UI bugs identified by Aaron and aligned some other program sequences in correct order." />
     <MESSAGE value="Finished up new requirements (#703, #737, #333), Refined requirements (#691, #693) to allow Live testing by Scott and Dan." />
     <MESSAGE value="radically changed the software on the architecture level so that we can then leverage some various design patterns in java" />
-    <option name="LAST_COMMIT_MESSAGE" value="radically changed the software on the architecture level so that we can then leverage some various design patterns in java" />
+    <MESSAGE value="Implemented additional support to the Spanning Tree Protocol on the software level.&#10;This is in the form of a service that runs in the background continuously and forces a new connection to the strongest Endpoint signal level in real-time depending on the distance relative to the nearest endpoint.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented additional support to the Spanning Tree Protocol on the software level.&#10;This is in the form of a service that runs in the background continuously and forces a new connection to the strongest Endpoint signal level in real-time depending on the distance relative to the nearest endpoint.&#10;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1986,12 +1834,6 @@
           <option name="timeStamp" value="647" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/proper/messagequeue/HttpMessageResolver.java</url>
-          <line>225</line>
-          <properties />
-          <option name="timeStamp" value="654" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/proper/binmove/ActBinItemSelection.java</url>
           <line>364</line>
           <properties />
@@ -2243,8 +2085,56 @@
           <properties />
           <option name="timeStamp" value="788" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java</url>
+          <line>170</line>
+          <properties />
+          <option name="timeStamp" value="795" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java</url>
+          <line>169</line>
+          <properties />
+          <option name="timeStamp" value="796" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java</url>
+          <line>175</line>
+          <properties />
+          <option name="timeStamp" value="797" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java</url>
+          <line>176</line>
+          <properties />
+          <option name="timeStamp" value="798" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java</url>
+          <line>179</line>
+          <properties />
+          <option name="timeStamp" value="801" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java</url>
+          <line>177</line>
+          <properties />
+          <option name="timeStamp" value="802" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java</url>
+          <line>187</line>
+          <properties />
+          <option name="timeStamp" value="803" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java</url>
+          <line>224</line>
+          <properties />
+          <option name="timeStamp" value="804" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="789" />
+      <option name="time" value="805" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -2271,124 +2161,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/proper/servicetasks/ScheduleReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="714">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveServiceReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="391">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/ActMoveChooser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.42249656" vertical-offset="563" max-vertical-offset="2312">
-          <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/ActInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09327846" vertical-offset="0" max-vertical-offset="729">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-          <folding>
-            <element signature="docComment;class#ActInfo#0" expanded="false" />
-            <element signature="method#onCreate#0;class#ActInfo#0" expanded="false" />
-            <element signature="method#lvMessages_Item_clicked#0;class#ActInfo#0" expanded="false" />
-            <element signature="method#lvAction_Item_Clicked#0;class#ActInfo#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/ActSingleDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6268861" vertical-offset="87" max-vertical-offset="1785">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/lyt_singledetailsmain.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-small/lyt_singledetailsmain.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-small/lyt_singlemain.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/lyt_binmain.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47325101" vertical-offset="229" max-vertical-offset="3077">
-          <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chainway/ht/ui/ActBinMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2881041" vertical-offset="1715" max-vertical-offset="6171">
-          <caret line="157" column="67" selection-start-line="157" selection-start-column="67" selection-end-line="157" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/AndroidDev/android-sdk/sources/android-19/android/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33286318" vertical-offset="57955" max-vertical-offset="322830">
-          <caret line="3520" column="0" selection-start-line="3520" selection-start-column="0" selection-end-line="3520" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/AndroidDev/android-sdk/sources/android-19/android/widget/TextView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33286318" vertical-offset="125190" max-vertical-offset="150671">
-          <caret line="7690" column="0" selection-start-line="7690" selection-start-column="0" selection-end-line="7690" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/lyt_chooser.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1224">
-          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/button_blue.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.024147727" vertical-offset="255" max-vertical-offset="1003">
@@ -2623,41 +2395,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/proper/messagequeue/HttpMessageResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5589041" vertical-offset="0" max-vertical-offset="884">
-          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-          <folding>
-            <element signature="method#resolveMessageQuery#0;class#HttpMessageResolver#0" expanded="false" />
-            <element signature="method#resolveMessageQueue#0;class#HttpMessageResolver#0" expanded="false" />
-            <element signature="method#resolveMessageQueueAsync#0;class#HttpMessageResolver#0" expanded="false" />
-            <element signature="method#resolveContacts#0;class#HttpMessageResolver#0" expanded="false" />
-            <element signature="method#hasActiveInternetConnection#0;class#HttpMessageResolver#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveServiceReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/proper/utils/MethodsCompact.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5604396" vertical-offset="0" max-vertical-offset="728">
           <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-          <folding>
-            <element signature="docComment;class#MethodsCompact#0" expanded="false" />
-            <element signature="method#getThumbnail#0;class#MethodsCompact#0" expanded="false" />
-            <element signature="method#getExternalCacheDir#0;class#MethodsCompact#0" expanded="false" />
-            <element signature="e#1087#1142#0" expanded="false" />
-            <element signature="method#recreate#0;class#MethodsCompact#0" expanded="false" />
-            <element signature="method#setLayerType#0;class#MethodsCompact#0" expanded="false" />
-            <element signature="method#setUiOptions#0;class#MethodsCompact#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2665,70 +2406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.8447802" vertical-offset="836" max-vertical-offset="1870">
           <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#FileUtils#0" expanded="false" />
-            <element signature="docComment;method#write#0;class#FileUtils#0" expanded="false" />
-            <element signature="method#write#0;class#FileUtils#0" expanded="false" />
-            <element signature="method#writeFile#0;class#FileUtils#0" expanded="false" />
-            <element signature="docComment;method#read#0;class#FileUtils#0" expanded="false" />
-            <element signature="method#read#0;class#FileUtils#0" expanded="false" />
-            <element signature="method#readInStream#0;class#FileUtils#0" expanded="false" />
-            <element signature="docComment;method#readFile#0;class#FileUtils#0" expanded="false" />
-            <element signature="method#readFile#0;class#FileUtils#0" expanded="false" />
-            <element signature="method#createFile#0;class#FileUtils#0" expanded="false" />
-            <element signature="docComment;method#writeFile#1;class#FileUtils#0" expanded="false" />
-            <element signature="method#writeFile#1;class#FileUtils#0" expanded="false" />
-            <element signature="docComment;method#getFileName#0;class#FileUtils#0" expanded="false" />
-            <element signature="method#getFileName#0;class#FileUtils#0" expanded="false" />
-            <element signature="docComment;method#getFileNameNoFormat#0;class#FileUtils#0" expanded="false" />
-            <element signature="method#getFileNameNoFormat#0;class#FileUtils#0" expanded="false" />
-            <element signature="docComment;method#getFileFormat#0;class#FileUtils#0" expanded="false" />
-            <element signature="method#getFileFormat#0;class#FileUtils#0" expanded="false" />
-            <element signature="docComment;method#getFileSize#0;class#FileUtils#0" expanded="false" />
-            <element signature="method#getFileSize#0;class#FileUtils#0" expanded="false" />
-            <element signature="docComment;method#getFileSize#1;class#FileUtils#0" expanded="false" />
-            <element signature="method#getFileSize#1;class#FileUtils#0" expanded="false" />
-            <element signature="docComment;method#formatFileSize#0;class#FileUtils#0" expanded="false" />
-            <element signature="method#formatFileSize#0;class#FileUtils#0" expanded="false" />
-            <element signature="docComment;method#getDirSize#0;class#FileUtils#0" expanded="false" />
-            <element signature="method#getDirSize#0;class#FileUtils#0" expanded="false" />
-            <element signature="docComment;method#getFileList#0;class#FileUtils#0" expanded="false" />
-            <element signature="method#getFileList#0;class#FileUtils#0" expanded="false" />
-            <element signature="method#toBytes#0;class#FileUtils#0" expanded="false" />
-            <element signature="docComment;method#checkFileExists#0;class#FileUtils#0" expanded="false" />
-            <element signature="method#checkFileExists#0;class#FileUtils#0" expanded="false" />
-            <element signature="docComment;method#checkFilePathExists#0;class#FileUtils#0" expanded="false" />
-            <element signature="docComment;method#getFreeDiskSpace#0;class#FileUtils#0" expanded="false" />
-            <element signature="method#getFreeDiskSpace#0;class#FileUtils#0" expanded="false" />
-            <element signature="docComment;method#createDirectory#0;class#FileUtils#0" expanded="false" />
-            <element signature="method#createDirectory#0;class#FileUtils#0" expanded="false" />
-            <element signature="docComment;method#checkSaveLocationExists#0;class#FileUtils#0" expanded="false" />
-            <element signature="method#checkSaveLocationExists#0;class#FileUtils#0" expanded="false" />
-            <element signature="docComment;method#deleteDirectory#0;class#FileUtils#0" expanded="false" />
-            <element signature="method#deleteDirectory#0;class#FileUtils#0" expanded="false" />
-            <element signature="e#11618#11677#0" expanded="false" />
-            <element signature="docComment;method#deleteFile#0;class#FileUtils#0" expanded="false" />
-            <element signature="method#deleteFile#0;class#FileUtils#0" expanded="false" />
-            <element signature="docComment;method#deleteBlankPath#0;class#FileUtils#0" expanded="false" />
-            <element signature="method#deleteBlankPath#0;class#FileUtils#0" expanded="false" />
-            <element signature="docComment;method#reNamePath#0;class#FileUtils#0" expanded="false" />
-            <element signature="method#reNamePath#0;class#FileUtils#0" expanded="false" />
-            <element signature="docComment;method#deleteFileWithPath#0;class#FileUtils#0" expanded="false" />
-            <element signature="method#deleteFileWithPath#0;class#FileUtils#0" expanded="false" />
-            <element signature="docComment;method#getSDRoot#0;class#FileUtils#0" expanded="false" />
-            <element signature="method#getSDRoot#0;class#FileUtils#0" expanded="false" />
-            <element signature="docComment;method#listPath#0;class#FileUtils#0" expanded="false" />
-            <element signature="method#listPath#0;class#FileUtils#0" expanded="false" />
-            <element signature="class#PathStatus#0;class#FileUtils#0" expanded="false" />
-            <element signature="docComment;method#createPath#0;class#FileUtils#0" expanded="false" />
-            <element signature="method#createPath#0;class#FileUtils#0" expanded="false" />
-            <element signature="docComment;method#getPathName#0;class#FileUtils#0" expanded="false" />
-            <element signature="method#getPathName#0;class#FileUtils#0" expanded="false" />
-            <element signature="docComment;method#copyFile#0;class#FileUtils#0" expanded="false" />
-            <element signature="method#copyFile#0;class#FileUtils#0" expanded="false" />
-            <element signature="docComment;method#copyFolder#0;class#FileUtils#0" expanded="false" />
-            <element signature="method#copyFolder#0;class#FileUtils#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2742,65 +2419,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09855072" vertical-offset="0" max-vertical-offset="3196">
-          <caret line="4" column="165" selection-start-line="4" selection-start-column="165" selection-end-line="4" selection-end-column="165" />
+        <state vertical-scroll-proportion="0.3228022" vertical-offset="462" max-vertical-offset="1258">
+          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/ActLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1139">
+          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/proper/utils/UIHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1258">
+        <state vertical-scroll-proportion="-0.17748918" vertical-offset="334" max-vertical-offset="1258">
           <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23351648" vertical-offset="0" max-vertical-offset="1615">
-          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3228022" vertical-offset="462" max-vertical-offset="1258">
-          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-          <folding>
-            <element signature="docComment;class#AppConfig#0" expanded="false" />
-            <element signature="method#getAppConfig#0;class#AppConfig#0" expanded="false" />
-            <element signature="docComment;method#getSharedPreferences#0;class#AppConfig#0" expanded="false" />
-            <element signature="method#getSharedPreferences#0;class#AppConfig#0" expanded="false" />
-            <element signature="docComment;method#isMethodsCompat#0;class#AppConfig#0" expanded="false" />
-            <element signature="method#isMethodsCompat#0;class#AppConfig#0" expanded="false" />
-            <element signature="docComment;method#isLoadImage#0;class#AppConfig#0" expanded="false" />
-            <element signature="method#isLoadImage#0;class#AppConfig#0" expanded="false" />
-            <element signature="method#get#0;class#AppConfig#0" expanded="false" />
-            <element signature="method#get#1;class#AppConfig#0" expanded="false" />
-            <element signature="method#setProps#0;class#AppConfig#0" expanded="false" />
-            <element signature="method#set#0;class#AppConfig#0" expanded="false" />
-            <element signature="method#set#1;class#AppConfig#0" expanded="false" />
-            <element signature="method#remove#0;class#AppConfig#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/AppContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.1758242" vertical-offset="1788" max-vertical-offset="2771">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.36499467" vertical-offset="2106" max-vertical-offset="3043">
+          <caret line="583" column="5" selection-start-line="583" selection-start-column="5" selection-end-line="583" selection-end-column="5" />
           <folding>
             <element signature="docComment;class#AppContext#0" expanded="false" />
             <element signature="method#onCreate#0;class#AppContext#0" expanded="false" />
-            <element signature="e#2299#2346#0" expanded="false" />
+            <element signature="e#2339#2386#0" expanded="false" />
             <element signature="docComment;method#init#0;class#AppContext#0" expanded="false" />
-            <element signature="method#init#0;class#AppContext#0" expanded="false" />
-            <element signature="e#2553#2614#0" expanded="false" />
-            <element signature="e#3286#3340#0" expanded="false" />
+            <element signature="e#2593#2654#0" expanded="false" />
+            <element signature="e#3326#3380#0" expanded="false" />
             <element signature="docComment;method#getDeviceNum#0;class#AppContext#0" expanded="false" />
             <element signature="docComment;method#getLocalMacAddress#0;class#AppContext#0" expanded="false" />
             <element signature="method#getLocalMacAddress#0;class#AppContext#0" expanded="false" />
@@ -2836,7 +2487,7 @@
             <element signature="method#isCacheDataFailure#0;class#AppContext#0" expanded="false" />
             <element signature="docComment;method#clearAppCache#0;class#AppContext#0" expanded="false" />
             <element signature="method#clearAppCache#0;class#AppContext#0" expanded="false" />
-            <element signature="e#11347#11372#0" expanded="false" />
+            <element signature="e#11401#11426#0" expanded="false" />
             <element signature="method#clearCacheFolder#0;class#AppContext#0" expanded="false" />
             <element signature="docComment;method#setMemCache#0;class#AppContext#0" expanded="false" />
             <element signature="docComment;method#getMemCache#0;class#AppContext#0" expanded="false" />
@@ -2859,50 +2510,235 @@
             <element signature="method#saveRecords#0;class#AppContext#0" expanded="false" />
             <element signature="docComment;method#isServiceRunning#0;class#AppContext#0" expanded="false" />
             <element signature="method#isServiceRunning#0;class#AppContext#0" expanded="false" />
+            <element signature="method#onTerminate#0;class#AppContext#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/AppManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11675824" vertical-offset="0" max-vertical-offset="728">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.07257204" vertical-offset="0" max-vertical-offset="937">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12700106" vertical-offset="0" max-vertical-offset="1649">
+          <caret line="7" column="80" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/data/helpers/LetterSpacingTextView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12700106" vertical-offset="0" max-vertical-offset="1037">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/utils/WifiSignalLevelSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16328709" vertical-offset="0" max-vertical-offset="937">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
-            <element signature="docComment;class#AppManager#0" expanded="false" />
-            <element signature="method#AppManager#0;class#AppManager#0" expanded="false" />
-            <element signature="method#getAppManager#0;class#AppManager#0" expanded="false" />
-            <element signature="method#addActivity#0;class#AppManager#0" expanded="false" />
-            <element signature="method#currentActivity#0;class#AppManager#0" expanded="false" />
-            <element signature="method#finishActivity#0;class#AppManager#0" expanded="false" />
-            <element signature="method#finishActivity#1;class#AppManager#0" expanded="false" />
-            <element signature="method#finishActivity#2;class#AppManager#0" expanded="false" />
-            <element signature="method#AppExit#0;class#AppManager#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/data/BinMove.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12686567" vertical-offset="0" max-vertical-offset="1003">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/data/BarcodeResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12686567" vertical-offset="0" max-vertical-offset="938">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/data/BarcodeBinResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14498934" vertical-offset="0" max-vertical-offset="938">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/data/BinMoveServiceConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11147541" vertical-offset="0" max-vertical-offset="915">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/data/adapters/BarcodeResponseAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46120217" vertical-offset="1261" max-vertical-offset="2176">
+          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/utils/NetUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.86993605" vertical-offset="0" max-vertical-offset="1564">
+          <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/servicetasks/WifiElectUpdater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52558637" vertical-offset="0" max-vertical-offset="938">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+          <folding>
+            <element signature="e#902#903#0" expanded="false" />
+            <element signature="e#934#935#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveServiceReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.054371003" vertical-offset="306" max-vertical-offset="1258">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/AndroidDev/android-sdk/sources/android-19/android/net/wifi/WifiManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4262295" vertical-offset="11418" max-vertical-offset="36295">
+          <caret line="727" column="32" selection-start-line="727" selection-start-column="17" selection-end-line="727" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/messagequeue/HttpMessageResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+          <folding>
+            <element signature="docComment;class#HttpMessageResolver#0" expanded="false" />
+            <element signature="method#setConfig#0;class#HttpMessageResolver#0" expanded="false" />
+            <element signature="method#resolveMessageQuery#0;class#HttpMessageResolver#0" expanded="false" />
+            <element signature="e#2896#2925#0" expanded="false" />
+            <element signature="e#3142#3224#0" expanded="false" />
+            <element signature="e#3538#3569#0" expanded="false" />
+            <element signature="method#resolveMessageQueue#0;class#HttpMessageResolver#0" expanded="false" />
+            <element signature="method#resolveMessageQueueAsync#0;class#HttpMessageResolver#0" expanded="false" />
+            <element signature="class#8092:8830" expanded="false" />
+            <element signature="method#completed#0;class#8092:8830" expanded="false" />
+            <element signature="method#failed#0;class#8092:8830" expanded="false" />
+            <element signature="method#resolveContacts#0;class#HttpMessageResolver#0" expanded="false" />
+            <element signature="method#hasActiveInternetConnection#0;class#HttpMessageResolver#0" expanded="false" />
+            <element signature="method#isNetworkAvailable#0;class#HttpMessageResolver#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/data/WifiObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1768">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="docComment;class#WifiObject#0" expanded="false" />
+            <element signature="method#WifiObject#0;class#WifiObject#0" expanded="false" />
+            <element signature="method#WifiObject#1;class#WifiObject#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/data/Bin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#Bin#0" expanded="false" />
+            <element signature="method#Bin#0;class#Bin#0" expanded="false" />
+            <element signature="method#Bin#1;class#Bin#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/servicetasks/WifiReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+          <folding>
+            <element signature="docComment;class#WifiReceiver#0" expanded="false" />
+            <element signature="method#onReceive#0;class#WifiReceiver#0" expanded="false" />
+            <element signature="e#2868#2926#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.68" vertical-offset="0" max-vertical-offset="136">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <folding>
+            <element signature="tag#resources#0" expanded="false" />
+            <element signature="tag#style#0;tag#resources#0" expanded="false" />
+            <element signature="tag#style#1;tag#resources#0" expanded="false" />
+            <element signature="tag#style#2;tag#resources#0" expanded="false" />
+            <element signature="tag#style#3;tag#resources#0" expanded="false" />
+            <element signature="tag#style#4;tag#resources#0" expanded="false" />
+            <element signature="tag#style#5;tag#resources#0" expanded="false" />
+            <element signature="tag#style#6;tag#resources#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/servicetasks/ScheduleReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3596615" vertical-offset="0" max-vertical-offset="709">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+          <folding>
+            <element signature="docComment;class#ScheduleReceiver#0" expanded="false" />
+            <element signature="method#onReceive#0;class#ScheduleReceiver#0" expanded="false" />
+            <element signature="class#ScheduleTask#0;class#ScheduleReceiver#0" expanded="false" />
+            <element signature="method#run#0;class#ScheduleTask#0;class#ScheduleReceiver#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="139" max-vertical-offset="867">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/ActLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1139">
-          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/proper/servicetasks/ScheduleReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8947368" vertical-offset="0" max-vertical-offset="731">
-          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.16078985" vertical-offset="277" max-vertical-offset="986">
+          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#BinMoveService#0" expanded="false" />
+            <element signature="method#onCreate#0;class#BinMoveService#0" expanded="false" />
+            <element signature="method#onStart#0;class#BinMoveService#0" expanded="false" />
+            <element signature="e#2326#2438#0" expanded="false" />
+            <element signature="method#onStartCommand#0;class#BinMoveService#0" expanded="false" />
+            <element signature="e#3605#3709#0" expanded="false" />
+            <element signature="e#4945#4985#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#BinMoveService#0" expanded="false" />
+            <element signature="method#doInBackground#0;class#BinMoveService#0" expanded="false" />
+            <element signature="class#MyPropertyChangeListener#0;class#BinMoveService#0" expanded="false" />
+            <element signature="method#propertyChange#0;class#MyPropertyChangeListener#0;class#BinMoveService#0" expanded="false" />
+            <element signature="class#doWorkInBackground#0;class#BinMoveService#0" expanded="false" />
+            <element signature="method#run#0;class#doWorkInBackground#0;class#BinMoveService#0" expanded="false" />
+            <element signature="class#UpdateNotifier#0;class#BinMoveService#0" expanded="false" />
+            <element signature="method#run#0;class#UpdateNotifier#0;class#BinMoveService#0" expanded="false" />
+            <element signature="method#connectToAStrongerWIfi#0;class#BinMoveService#0" expanded="false" />
+            <element signature="e#10303#10355#0" expanded="false" />
+            <element signature="method#removeAllSavedNetworks#0;class#BinMoveService#0" expanded="false" />
+            <element signature="method#getWifiChannel#0;class#BinMoveService#0" expanded="false" />
+            <element signature="method#getEndPointLocation#0;class#BinMoveService#0" expanded="false" />
+            <element signature="class#Configurator#0;class#BinMoveService#0" expanded="false" />
+            <element signature="method#setRunning#0;class#Configurator#0;class#BinMoveService#0" expanded="false" />
+            <element signature="method#setEndpointElect#0;class#Configurator#0;class#BinMoveService#0" expanded="false" />
+            <element signature="method#addPropertyChangeListener#0;class#Configurator#0;class#BinMoveService#0" expanded="false" />
+            <element signature="class#WifiLevelReceiver#0;class#BinMoveService#0" expanded="false" />
+            <element signature="method#onReceive#0;class#WifiLevelReceiver#0;class#BinMoveService#0" expanded="false" />
+            <element signature="e#16753#16811#0" expanded="false" />
           </folding>
         </state>
       </provider>

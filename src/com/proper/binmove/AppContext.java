@@ -33,7 +33,7 @@ import java.util.*;
 public class AppContext extends Application {
 
     private static final String TAG = AppContext.class.getSimpleName();
-
+    private Intent serviceIntent = null;
     public static final int NETTYPE_WIFI = 0x01;
     public static final int NETTYPE_CMWAP = 0x02;
     public static final int NETTYPE_CMNET = 0x03;
@@ -102,8 +102,8 @@ public class AppContext extends Application {
         //FileUtils.createPath(AppConfig.DEFAULT_SAVE_PATH);
 
         //Start BinMoveService
-        Intent intent = new Intent(this, BinMoveService.class);
-        startService(intent);
+        Intent serviceIntent = new Intent(this, BinMoveService.class);
+        startService(serviceIntent);
     }
 
     /**
@@ -747,5 +747,12 @@ public class AppContext extends Application {
             }
         }
         return isRunning;
+    }
+
+    @Override
+    public void onTerminate() {
+        //terminate the bacground service
+        stopService(serviceIntent);
+        super.onTerminate();
     }
 }
