@@ -73,14 +73,17 @@ public class ActLogin extends Activity {
 
         soundPool = new SoundPool(1, AudioManager.STREAM_MUSIC, 0);
 
+        View screen = null;
+
         if (deviceID.equalsIgnoreCase(getResources().getString(R.string.SmallDevice))) {
             errorSoundId = soundPool.load(getResources().getString(R.string.SOUND_ERROR), 1);
+            screen = (ScrollView) this.findViewById(R.id.screenLogin);
         }
         if (deviceID.equalsIgnoreCase(getResources().getString(R.string.LargeDevice))) {
             errorSoundId = soundPool.load(this, R.raw.serror, 1);
+            screen = (LinearLayout) this.findViewById(R.id.screenLogin);
         }
 
-        LinearLayout screen = (LinearLayout) this.findViewById(R.id.screenLogin);
         txtInitials = (EditText) this.findViewById(R.id.etxtLoginInitials);
         txtPin = (EditText) this.findViewById(R.id.etxtLoginPin);
         btnLogin = (Button) this.findViewById(R.id.bnLoginProceed);

@@ -163,7 +163,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d88915d4-1e09-49f7-8396-5fcb659d1593" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/binmove/ActLogin.java" afterPath="$PROJECT_DIR$/src/com/proper/binmove/ActLogin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/binmove/AppContext.java" afterPath="$PROJECT_DIR$/src/com/proper/binmove/AppContext.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java" afterPath="$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/utils/NetUtils.java" afterPath="$PROJECT_DIR$/src/com/proper/utils/NetUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/proper/servicetasks/WifiReceiver.java" afterPath="$PROJECT_DIR$/src/com/proper/servicetasks/WifiReceiver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-small/lyt_login.xml" afterPath="$PROJECT_DIR$/res/layout-small/lyt_login.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BinMove.iws" />
@@ -184,10 +190,10 @@
     <SUITE FILE_PATH="coverage/BinMove$ActSingleDetails_Should_carryLoadInfo.coverage" NAME="ActSingleDetails_Should.carryLoadInfo Coverage Results" MODIFIED="1402330406910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.proper.BinMove.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/BinMove$ActSingleDetails_Should.coverage" NAME="ActSingleDetails_Should Coverage Results" MODIFIED="1402331019191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/BinMove$ActChooserTest.coverage" NAME="ActChooserTest Coverage Results" MODIFIED="1405514128927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.proper.BinMove.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/BinMove$ActChooserTest.coverage" NAME="ActChooserTest Coverage Results" MODIFIED="1405514128927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/BinMove$ActSingleDetails_Should.coverage" NAME="ActSingleDetails_Should Coverage Results" MODIFIED="1402331019191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.proper.BinMove.*</FILTER>
     </SUITE>
   </component>
@@ -341,15 +347,166 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="BinMove" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="BinMoveService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="253" max-vertical-offset="986">
+              <caret line="163" column="5" selection-start-line="163" selection-start-column="5" selection-end-line="163" selection-end-column="5" />
+              <folding>
+                <element signature="docComment;class#BinMoveService#0" expanded="false" />
+                <element signature="method#onCreate#0;class#BinMoveService#0" expanded="false" />
+                <element signature="method#onStart#0;class#BinMoveService#0" expanded="false" />
+                <element signature="e#2326#2438#0" expanded="false" />
+                <element signature="method#onStartCommand#0;class#BinMoveService#0" expanded="false" />
+                <element signature="e#3593#3697#0" expanded="false" />
+                <element signature="e#4933#4973#0" expanded="false" />
+                <element signature="e#5119#5181#0" expanded="false" />
+                <element signature="method#onDestroy#0;class#BinMoveService#0" expanded="false" />
+                <element signature="method#doInBackground#0;class#BinMoveService#0" expanded="false" />
+                <element signature="class#MyPropertyChangeListener#0;class#BinMoveService#0" expanded="false" />
+                <element signature="method#propertyChange#0;class#MyPropertyChangeListener#0;class#BinMoveService#0" expanded="false" />
+                <element signature="class#doWorkInBackground#0;class#BinMoveService#0" expanded="false" />
+                <element signature="e#8311#8335#0" expanded="false" />
+                <element signature="method#run#0;class#doWorkInBackground#0;class#BinMoveService#0" expanded="false" />
+                <element signature="e#8490#8531#0" expanded="false" />
+                <element signature="class#UpdateNotifier#0;class#BinMoveService#0" expanded="false" />
+                <element signature="method#run#0;class#UpdateNotifier#0;class#BinMoveService#0" expanded="false" />
+                <element signature="method#connectToAStrongerWIfi#0;class#BinMoveService#0" expanded="false" />
+                <element signature="e#10295#10347#0" expanded="false" />
+                <element signature="method#removeAllSavedNetworks#0;class#BinMoveService#0" expanded="false" />
+                <element signature="method#getWifiChannel#0;class#BinMoveService#0" expanded="false" />
+                <element signature="method#getEndPointLocation#0;class#BinMoveService#0" expanded="false" />
+                <element signature="class#Configurator#0;class#BinMoveService#0" expanded="false" />
+                <element signature="method#setRunning#0;class#Configurator#0;class#BinMoveService#0" expanded="false" />
+                <element signature="method#setEndpointElect#0;class#Configurator#0;class#BinMoveService#0" expanded="false" />
+                <element signature="method#addPropertyChangeListener#0;class#Configurator#0;class#BinMoveService#0" expanded="false" />
+                <element signature="class#WifiLevelReceiver#0;class#BinMoveService#0" expanded="false" />
+                <element signature="method#onReceive#0;class#WifiLevelReceiver#0;class#BinMoveService#0" expanded="false" />
+                <element signature="e#15417#15491#0" expanded="false" />
+                <element signature="e#16097#16137#0" expanded="false" />
+                <element signature="e#16939#16997#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NetUtils.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/proper/utils/NetUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="3128">
+              <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppContext.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/AppContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="12954">
+              <caret line="42" column="87" selection-start-line="42" selection-start-column="87" selection-end-line="42" selection-end-column="87" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActChooser.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/ActChooser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3298" max-vertical-offset="3876">
+              <caret line="194" column="86" selection-start-line="194" selection-start-column="86" selection-end-line="194" selection-end-column="86" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WifiReceiver.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/proper/servicetasks/WifiReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="1428">
+              <caret line="31" column="68" selection-start-line="31" selection-start-column="68" selection-end-line="31" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActLogin.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/ActLogin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="5746">
+              <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpMessageResolver.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/proper/messagequeue/HttpMessageResolver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.41746247" vertical-offset="0" max-vertical-offset="765">
+              <caret line="53" column="52" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="52" />
+              <folding>
+                <element signature="docComment;class#HttpMessageResolver#0" expanded="false" />
+                <element signature="e#1713#1740#0" expanded="true" />
+                <element signature="method#setConfig#0;class#HttpMessageResolver#0" expanded="false" />
+                <element signature="method#resolveMessageQuery#0;class#HttpMessageResolver#0" expanded="false" />
+                <element signature="e#2896#2925#0" expanded="false" />
+                <element signature="e#3142#3224#0" expanded="false" />
+                <element signature="e#3538#3569#0" expanded="false" />
+                <element signature="method#resolveMessageQueue#0;class#HttpMessageResolver#0" expanded="false" />
+                <element signature="method#resolveMessageQueueAsync#0;class#HttpMessageResolver#0" expanded="false" />
+                <element signature="class#8092:8830" expanded="false" />
+                <element signature="method#completed#0;class#8092:8830" expanded="false" />
+                <element signature="method#failed#0;class#8092:8830" expanded="false" />
+                <element signature="method#resolveContacts#0;class#HttpMessageResolver#0" expanded="false" />
+                <element signature="method#hasActiveInternetConnection#0;class#HttpMessageResolver#0" expanded="false" />
+                <element signature="method#isNetworkAvailable#0;class#HttpMessageResolver#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.48" vertical-offset="1409" max-vertical-offset="2108">
+              <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
+              <folding>
+                <element signature="tag#style#0;tag#resources#0" expanded="false" />
+                <element signature="tag#style#1;tag#resources#0" expanded="false" />
+                <element signature="tag#style#2;tag#resources#0" expanded="false" />
+                <element signature="tag#style#3;tag#resources#0" expanded="false" />
+                <element signature="tag#style#4;tag#resources#0" expanded="false" />
+                <element signature="tag#style#5;tag#resources#0" expanded="false" />
+                <element signature="tag#style#6;tag#resources#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lyt_login.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout-small/lyt_login.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1768">
+              <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -367,8 +524,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/layout/lyt_chooser.xml" />
-        <option value="$PROJECT_DIR$/src/com/proper/utils/StringUtils.java" />
         <option value="$PROJECT_DIR$/src/com/proper/data/UserAuthenticator.java" />
         <option value="$PROJECT_DIR$/src/com/chainway/ht/ui/ActQueryScan.java" />
         <option value="$PROJECT_DIR$/src/com/chainway/ht/ui/ActSingleMain.java" />
@@ -407,17 +562,19 @@
         <option value="$PROJECT_DIR$/src/com/proper/binmove/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/com/proper/servicetasks/ScheduleReceiver.java" />
         <option value="$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveServiceReceiver.java" />
-        <option value="$PROJECT_DIR$/src/com/proper/binmove/AppContext.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/proper/utils/WifiSignalLevelSorter.java" />
-        <option value="$PROJECT_DIR$/src/com/proper/servicetasks/WifiReceiver.java" />
         <option value="$PROJECT_DIR$/src/com/proper/data/WifiObject.java" />
         <option value="$PROJECT_DIR$/src/com/proper/data/BinMoveServiceConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/com/proper/utils/NetUtils.java" />
         <option value="$PROJECT_DIR$/src/com/proper/servicetasks/WifiElectUpdater.java" />
-        <option value="$PROJECT_DIR$/src/com/proper/messagequeue/HttpMessageResolver.java" />
+        <option value="$PROJECT_DIR$/src/com/proper/utils/NetUtils.java" />
+        <option value="$PROJECT_DIR$/res/layout-small/lyt_login.xml" />
+        <option value="$PROJECT_DIR$/src/com/proper/servicetasks/WifiReceiver.java" />
+        <option value="$PROJECT_DIR$/src/com/proper/binmove/ActLogin.java" />
+        <option value="$PROJECT_DIR$/src/com/proper/binmove/AppContext.java" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java" />
+        <option value="$PROJECT_DIR$/src/com/proper/messagequeue/HttpMessageResolver.java" />
       </list>
     </option>
   </component>
@@ -460,8 +617,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -470,8 +625,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BinMove" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BinMove" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BinMove" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BinMove" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -491,7 +672,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="MT-GQCAHIPNBQNF5HM7" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="MT-JNIJJR8LDAUOGYR4" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="VC4000" />
     <property name="LayoutCode.rearrangeEntriesXML" value="true" />
     <property name="OverrideImplement.combined" value="true" />
@@ -523,9 +704,9 @@
       <recent name="com.chainway.ht.ui" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lebel\IdeaProjects\BinMove\res\layout-small" />
       <recent name="C:\Users\Lebel\IdeaProjects\BinMove\res\anim" />
       <recent name="C:\Users\Lebel\IdeaProjects\BinMove\res\drawable-xhdpi" />
-      <recent name="C:\Users\Lebel\IdeaProjects\BinMove\res\layout-small" />
       <recent name="C:\Users\Lebel\IdeaProjects\BinMove\res\drawable" />
       <recent name="C:\Users\Lebel\IdeaProjects\BinMove\libs" />
     </key>
@@ -937,7 +1118,8 @@
       <workItem from="1407852382986" duration="804000" />
       <workItem from="1407918432409" duration="22795000" />
       <workItem from="1408004883105" duration="27214000" />
-      <workItem from="1408090762336" duration="9817000" />
+      <workItem from="1408090762336" duration="19742000" />
+      <workItem from="1408349246092" duration="11939000" />
     </task>
     <task id="LOCAL-00001" summary="Deleted the UnitTest project and fixed some UI bugs identified by Aaron and aligned some other program sequences in correct order.">
       <created>1406114107883</created>
@@ -951,11 +1133,15 @@
       <created>1408105404808</created>
       <updated>1408105404808</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Minor changes to the BinMoveService to include the new Export endpoint in the BroadcastReceiver accepted params">
+      <created>1408106728532</created>
+      <updated>1408106728532</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1751873000" />
+    <option name="totallyTimeSpent" value="1773737000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -995,35 +1181,35 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32778355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19669509" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29740933" sideWeight="0.49946696" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21243523" sideWeight="0.49946696" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29637307" sideWeight="0.49946696" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21139896" sideWeight="0.49946696" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32674298" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21268657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21268657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32124352" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16693333" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16693333" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3243243" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991684" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20707597" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20807454" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20807454" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32778355" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19669509" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32778355" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32995737" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32674298" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1044,8 +1230,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29864725" sideWeight="0.49946696" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2130977" sideWeight="0.49946696" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991684" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1071,7 +1257,8 @@
     <MESSAGE value="Finished up new requirements (#703, #737, #333), Refined requirements (#691, #693) to allow Live testing by Scott and Dan." />
     <MESSAGE value="radically changed the software on the architecture level so that we can then leverage some various design patterns in java" />
     <MESSAGE value="Implemented additional support to the Spanning Tree Protocol on the software level.&#10;This is in the form of a service that runs in the background continuously and forces a new connection to the strongest Endpoint signal level in real-time depending on the distance relative to the nearest endpoint.&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented additional support to the Spanning Tree Protocol on the software level.&#10;This is in the form of a service that runs in the background continuously and forces a new connection to the strongest Endpoint signal level in real-time depending on the distance relative to the nearest endpoint.&#10;" />
+    <MESSAGE value="Minor changes to the BinMoveService to include the new Export endpoint in the BroadcastReceiver accepted params" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor changes to the BinMoveService to include the new Export endpoint in the BroadcastReceiver accepted params" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2126,8 +2313,56 @@
           <properties />
           <option name="timeStamp" value="804" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java</url>
+          <line>387</line>
+          <properties />
+          <option name="timeStamp" value="805" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java</url>
+          <line>386</line>
+          <properties />
+          <option name="timeStamp" value="806" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java</url>
+          <line>383</line>
+          <properties />
+          <option name="timeStamp" value="807" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java</url>
+          <line>385</line>
+          <properties />
+          <option name="timeStamp" value="808" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java</url>
+          <line>389</line>
+          <properties />
+          <option name="timeStamp" value="811" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java</url>
+          <line>391</line>
+          <properties />
+          <option name="timeStamp" value="812" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java</url>
+          <line>396</line>
+          <properties />
+          <option name="timeStamp" value="814" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java</url>
+          <line>394</line>
+          <properties />
+          <option name="timeStamp" value="815" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="805" />
+      <option name="time" value="816" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -2154,13 +2389,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/button_blue.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.024147727" vertical-offset="255" max-vertical-offset="1003">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/values-v11/themes_lebelblue.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
@@ -2307,16 +2535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/lyt_login.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.050147492" vertical-offset="0" max-vertical-offset="678">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/proper/fragments/QuantityDialogFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.62739724" vertical-offset="613" max-vertical-offset="1343">
@@ -2402,16 +2620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/ActChooser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.046703298" vertical-offset="510" max-vertical-offset="3094">
-          <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
-          <folding>
-            <element signature="docComment;class#ActChooser#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3228022" vertical-offset="462" max-vertical-offset="1258">
@@ -2419,99 +2627,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/ActLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1139">
-          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/proper/utils/UIHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.17748918" vertical-offset="334" max-vertical-offset="1258">
           <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/AppContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36499467" vertical-offset="2106" max-vertical-offset="3043">
-          <caret line="583" column="5" selection-start-line="583" selection-start-column="5" selection-end-line="583" selection-end-column="5" />
-          <folding>
-            <element signature="docComment;class#AppContext#0" expanded="false" />
-            <element signature="method#onCreate#0;class#AppContext#0" expanded="false" />
-            <element signature="e#2339#2386#0" expanded="false" />
-            <element signature="docComment;method#init#0;class#AppContext#0" expanded="false" />
-            <element signature="e#2593#2654#0" expanded="false" />
-            <element signature="e#3326#3380#0" expanded="false" />
-            <element signature="docComment;method#getDeviceNum#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#getLocalMacAddress#0;class#AppContext#0" expanded="false" />
-            <element signature="method#getLocalMacAddress#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#isAudioNormal#0;class#AppContext#0" expanded="false" />
-            <element signature="method#isAudioNormal#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#isAppSound#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#isVoice#0;class#AppContext#0" expanded="false" />
-            <element signature="method#isVoice#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#setConfigVoice#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#playSound#0;class#AppContext#0" expanded="false" />
-            <element signature="method#playSound#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#isNetworkConnected#0;class#AppContext#0" expanded="false" />
-            <element signature="method#isNetworkConnected#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#getNetworkType#0;class#AppContext#0" expanded="false" />
-            <element signature="method#getNetworkType#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#isMethodsCompat#0;class#AppContext#0" expanded="false" />
-            <element signature="method#isMethodsCompat#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#getPackageInfo#0;class#AppContext#0" expanded="false" />
-            <element signature="method#getPackageInfo#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#getAppId#0;class#AppContext#0" expanded="false" />
-            <element signature="method#getAppId#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#isLoadImage#0;class#AppContext#0" expanded="false" />
-            <element signature="method#isLoadImage#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#setConfigLoadimage#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#isCheckUp#0;class#AppContext#0" expanded="false" />
-            <element signature="method#isCheckUp#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#setConfigCheckUp#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#cleanCookie#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#isReadDataCache#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#isExistDataCache#0;class#AppContext#0" expanded="false" />
-            <element signature="method#isExistDataCache#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#isCacheDataFailure#0;class#AppContext#0" expanded="false" />
-            <element signature="method#isCacheDataFailure#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#clearAppCache#0;class#AppContext#0" expanded="false" />
-            <element signature="method#clearAppCache#0;class#AppContext#0" expanded="false" />
-            <element signature="e#11401#11426#0" expanded="false" />
-            <element signature="method#clearCacheFolder#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#setMemCache#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#getMemCache#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#setDiskCache#0;class#AppContext#0" expanded="false" />
-            <element signature="method#setDiskCache#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#getDiskCache#0;class#AppContext#0" expanded="false" />
-            <element signature="method#getDiskCache#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#saveObject#0;class#AppContext#0" expanded="false" />
-            <element signature="method#saveObject#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#readObject#0;class#AppContext#0" expanded="false" />
-            <element signature="method#readObject#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#getSaveImagePath#0;class#AppContext#0" expanded="false" />
-            <element signature="method#containsProperty#0;class#AppContext#0" expanded="false" />
-            <element signature="method#getDensity#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#showInputMethod#0;class#AppContext#0" expanded="false" />
-            <element signature="method#showInputMethod#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#closeInputMethod#0;class#AppContext#0" expanded="false" />
-            <element signature="method#closeInputMethod#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#saveRecords#0;class#AppContext#0" expanded="false" />
-            <element signature="method#saveRecords#0;class#AppContext#0" expanded="false" />
-            <element signature="docComment;method#isServiceRunning#0;class#AppContext#0" expanded="false" />
-            <element signature="method#isServiceRunning#0;class#AppContext#0" expanded="false" />
-            <element signature="method#onTerminate#0;class#AppContext#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/AppManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07257204" vertical-offset="0" max-vertical-offset="937">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -2527,16 +2646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12700106" vertical-offset="0" max-vertical-offset="1037">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/proper/utils/WifiSignalLevelSorter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16328709" vertical-offset="0" max-vertical-offset="937">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2565,7 +2674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11147541" vertical-offset="0" max-vertical-offset="915">
           <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2573,14 +2681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46120217" vertical-offset="1261" max-vertical-offset="2176">
           <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/proper/utils/NetUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86993605" vertical-offset="0" max-vertical-offset="1564">
-          <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -2600,7 +2700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.054371003" vertical-offset="306" max-vertical-offset="1258">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2608,15 +2707,172 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4262295" vertical-offset="11418" max-vertical-offset="36295">
           <caret line="727" column="32" selection-start-line="727" selection-start-column="17" selection-end-line="727" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/data/WifiObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1768">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/data/Bin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/servicetasks/ScheduleReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3596615" vertical-offset="0" max-vertical-offset="709">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/lyt_login.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1717">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/AppManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44535518" vertical-offset="48" max-vertical-offset="1819">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/servicetasks/WifiReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="124" max-vertical-offset="1122">
+          <caret line="31" column="68" selection-start-line="31" selection-start-column="68" selection-end-line="31" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/utils/NetUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/ActChooser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2362" max-vertical-offset="3094">
+          <caret line="194" column="86" selection-start-line="194" selection-start-column="86" selection-end-line="194" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/AppContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2822">
+          <caret line="42" column="87" selection-start-line="42" selection-start-column="87" selection-end-line="42" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-small/lyt_login.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1768">
+          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/binmove/ActLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="5746">
+          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.48" vertical-offset="1409" max-vertical-offset="2108">
+          <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
+          <folding>
+            <element signature="tag#style#0;tag#resources#0" expanded="false" />
+            <element signature="tag#style#1;tag#resources#0" expanded="false" />
+            <element signature="tag#style#2;tag#resources#0" expanded="false" />
+            <element signature="tag#style#3;tag#resources#0" expanded="false" />
+            <element signature="tag#style#4;tag#resources#0" expanded="false" />
+            <element signature="tag#style#5;tag#resources#0" expanded="false" />
+            <element signature="tag#style#6;tag#resources#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/utils/WifiSignalLevelSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16784203" vertical-offset="0" max-vertical-offset="709">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="253" max-vertical-offset="986">
+          <caret line="163" column="5" selection-start-line="163" selection-start-column="5" selection-end-line="163" selection-end-column="5" />
+          <folding>
+            <element signature="docComment;class#BinMoveService#0" expanded="false" />
+            <element signature="method#onCreate#0;class#BinMoveService#0" expanded="false" />
+            <element signature="method#onStart#0;class#BinMoveService#0" expanded="false" />
+            <element signature="e#2326#2438#0" expanded="false" />
+            <element signature="method#onStartCommand#0;class#BinMoveService#0" expanded="false" />
+            <element signature="e#3593#3697#0" expanded="false" />
+            <element signature="e#4933#4973#0" expanded="false" />
+            <element signature="e#5119#5181#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#BinMoveService#0" expanded="false" />
+            <element signature="method#doInBackground#0;class#BinMoveService#0" expanded="false" />
+            <element signature="class#MyPropertyChangeListener#0;class#BinMoveService#0" expanded="false" />
+            <element signature="method#propertyChange#0;class#MyPropertyChangeListener#0;class#BinMoveService#0" expanded="false" />
+            <element signature="class#doWorkInBackground#0;class#BinMoveService#0" expanded="false" />
+            <element signature="e#8311#8335#0" expanded="false" />
+            <element signature="method#run#0;class#doWorkInBackground#0;class#BinMoveService#0" expanded="false" />
+            <element signature="e#8490#8531#0" expanded="false" />
+            <element signature="class#UpdateNotifier#0;class#BinMoveService#0" expanded="false" />
+            <element signature="method#run#0;class#UpdateNotifier#0;class#BinMoveService#0" expanded="false" />
+            <element signature="method#connectToAStrongerWIfi#0;class#BinMoveService#0" expanded="false" />
+            <element signature="e#10295#10347#0" expanded="false" />
+            <element signature="method#removeAllSavedNetworks#0;class#BinMoveService#0" expanded="false" />
+            <element signature="method#getWifiChannel#0;class#BinMoveService#0" expanded="false" />
+            <element signature="method#getEndPointLocation#0;class#BinMoveService#0" expanded="false" />
+            <element signature="class#Configurator#0;class#BinMoveService#0" expanded="false" />
+            <element signature="method#setRunning#0;class#Configurator#0;class#BinMoveService#0" expanded="false" />
+            <element signature="method#setEndpointElect#0;class#Configurator#0;class#BinMoveService#0" expanded="false" />
+            <element signature="method#addPropertyChangeListener#0;class#Configurator#0;class#BinMoveService#0" expanded="false" />
+            <element signature="class#WifiLevelReceiver#0;class#BinMoveService#0" expanded="false" />
+            <element signature="method#onReceive#0;class#WifiLevelReceiver#0;class#BinMoveService#0" expanded="false" />
+            <element signature="e#15417#15491#0" expanded="false" />
+            <element signature="e#16097#16137#0" expanded="false" />
+            <element signature="e#16939#16997#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/proper/messagequeue/HttpMessageResolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.41746247" vertical-offset="0" max-vertical-offset="765">
+          <caret line="53" column="52" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="52" />
           <folding>
             <element signature="docComment;class#HttpMessageResolver#0" expanded="false" />
+            <element signature="e#1713#1740#0" expanded="true" />
             <element signature="method#setConfig#0;class#HttpMessageResolver#0" expanded="false" />
             <element signature="method#resolveMessageQuery#0;class#HttpMessageResolver#0" expanded="false" />
             <element signature="e#2896#2925#0" expanded="false" />
@@ -2630,108 +2886,6 @@
             <element signature="method#resolveContacts#0;class#HttpMessageResolver#0" expanded="false" />
             <element signature="method#hasActiveInternetConnection#0;class#HttpMessageResolver#0" expanded="false" />
             <element signature="method#isNetworkAvailable#0;class#HttpMessageResolver#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/proper/data/WifiObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1768">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding>
-            <element signature="docComment;class#WifiObject#0" expanded="false" />
-            <element signature="method#WifiObject#0;class#WifiObject#0" expanded="false" />
-            <element signature="method#WifiObject#1;class#WifiObject#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/proper/data/Bin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#Bin#0" expanded="false" />
-            <element signature="method#Bin#0;class#Bin#0" expanded="false" />
-            <element signature="method#Bin#1;class#Bin#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/proper/servicetasks/WifiReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
-          <folding>
-            <element signature="docComment;class#WifiReceiver#0" expanded="false" />
-            <element signature="method#onReceive#0;class#WifiReceiver#0" expanded="false" />
-            <element signature="e#2868#2926#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.68" vertical-offset="0" max-vertical-offset="136">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-          <folding>
-            <element signature="tag#resources#0" expanded="false" />
-            <element signature="tag#style#0;tag#resources#0" expanded="false" />
-            <element signature="tag#style#1;tag#resources#0" expanded="false" />
-            <element signature="tag#style#2;tag#resources#0" expanded="false" />
-            <element signature="tag#style#3;tag#resources#0" expanded="false" />
-            <element signature="tag#style#4;tag#resources#0" expanded="false" />
-            <element signature="tag#style#5;tag#resources#0" expanded="false" />
-            <element signature="tag#style#6;tag#resources#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/proper/servicetasks/ScheduleReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3596615" vertical-offset="0" max-vertical-offset="709">
-          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-          <folding>
-            <element signature="docComment;class#ScheduleReceiver#0" expanded="false" />
-            <element signature="method#onReceive#0;class#ScheduleReceiver#0" expanded="false" />
-            <element signature="class#ScheduleTask#0;class#ScheduleReceiver#0" expanded="false" />
-            <element signature="method#run#0;class#ScheduleTask#0;class#ScheduleReceiver#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/proper/servicetasks/BinMoveService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48803827" vertical-offset="0" max-vertical-offset="986">
-          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-          <folding>
-            <element signature="docComment;class#BinMoveService#0" expanded="false" />
-            <element signature="method#onCreate#0;class#BinMoveService#0" expanded="false" />
-            <element signature="method#onStart#0;class#BinMoveService#0" expanded="false" />
-            <element signature="e#2326#2438#0" expanded="false" />
-            <element signature="method#onStartCommand#0;class#BinMoveService#0" expanded="false" />
-            <element signature="e#3605#3709#0" expanded="false" />
-            <element signature="e#4945#4985#0" expanded="false" />
-            <element signature="method#onDestroy#0;class#BinMoveService#0" expanded="false" />
-            <element signature="method#doInBackground#0;class#BinMoveService#0" expanded="false" />
-            <element signature="class#MyPropertyChangeListener#0;class#BinMoveService#0" expanded="false" />
-            <element signature="method#propertyChange#0;class#MyPropertyChangeListener#0;class#BinMoveService#0" expanded="false" />
-            <element signature="class#doWorkInBackground#0;class#BinMoveService#0" expanded="false" />
-            <element signature="method#run#0;class#doWorkInBackground#0;class#BinMoveService#0" expanded="false" />
-            <element signature="class#UpdateNotifier#0;class#BinMoveService#0" expanded="false" />
-            <element signature="method#run#0;class#UpdateNotifier#0;class#BinMoveService#0" expanded="false" />
-            <element signature="method#connectToAStrongerWIfi#0;class#BinMoveService#0" expanded="false" />
-            <element signature="e#10303#10355#0" expanded="false" />
-            <element signature="method#removeAllSavedNetworks#0;class#BinMoveService#0" expanded="false" />
-            <element signature="method#getWifiChannel#0;class#BinMoveService#0" expanded="false" />
-            <element signature="method#getEndPointLocation#0;class#BinMoveService#0" expanded="false" />
-            <element signature="class#Configurator#0;class#BinMoveService#0" expanded="false" />
-            <element signature="method#setRunning#0;class#Configurator#0;class#BinMoveService#0" expanded="false" />
-            <element signature="method#setEndpointElect#0;class#Configurator#0;class#BinMoveService#0" expanded="false" />
-            <element signature="method#addPropertyChangeListener#0;class#Configurator#0;class#BinMoveService#0" expanded="false" />
-            <element signature="class#WifiLevelReceiver#0;class#BinMoveService#0" expanded="false" />
-            <element signature="method#onReceive#0;class#WifiLevelReceiver#0;class#BinMoveService#0" expanded="false" />
-            <element signature="e#16798#16856#0" expanded="false" />
           </folding>
         </state>
       </provider>

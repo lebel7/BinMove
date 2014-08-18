@@ -5,6 +5,15 @@ import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.wifi.ScanResult;
+import android.net.wifi.WifiConfiguration;
+import android.net.wifi.WifiManager;
+import android.util.Log;
+
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.List;
 
 /**
  * Created by Lebel on 13/08/2014.
@@ -51,6 +60,85 @@ public class NetUtils {
             netType = "WIFI";
         }
         return netType;
+    }
+
+    public boolean isNetworkAvailable(Context context) {
+        boolean success = false;
+        ConnectivityManager cm = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo netInfo = cm.getActiveNetworkInfo();
+        if (netInfo != null && netInfo.isConnected()) {
+            try {
+                URL url = new URL("http://www.google.com");
+                HttpURLConnection urlc = (HttpURLConnection) url.openConnection();
+                urlc.setConnectTimeout(3000);
+                urlc.connect();
+                if (urlc.getResponseCode() == HttpURLConnection.HTTP_OK) {
+                    success = true;
+                }
+            } catch (MalformedURLException e1) {
+                e1.printStackTrace();
+                return false;
+            } catch (IOException e) {
+                e.printStackTrace();
+                return false;
+            }
+        }
+
+        return success;
+    }
+
+    public boolean connectToMainWIfi(WifiManager wifiManager) {
+        // TODO - Handle Wifi Connectivity
+        boolean success = false;
+        if (!wifiManager.isWifiEnabled()) {
+            wifiManager.setWifiEnabled(true);
+        }
+        String pwd = "\"propermus1c\"";
+        String ssid = "\"wifi_zz\"";
+        if (removeAllSavedNetworks(wifiManager)) {
+            // setup a wifi configuration to our chosen network
+            WifiConfiguration wc = new WifiConfiguration();
+            //wc.SSID = getResources().getString(R.string.ssid);
+            //wc.preSharedKey = getResources().getString(R.string.password);
+            wc.SSID = ssid;
+            //wc.BSSID = result.BSSID;
+            wc.preSharedKey = pwd;
+            wc.status = WifiConfiguration.Status.ENABLED;
+            wc.allowedGroupCiphers.set(WifiConfiguration.GroupCipher.TKIP);
+            wc.allowedGroupCiphers.set(WifiConfiguration.GroupCipher.CCMP);
+            wc.allowedKeyManagement.set(WifiConfiguration.KeyMgmt.WPA_PSK);
+            wc.allowedPairwiseCiphers.set(WifiConfiguration.PairwiseCipher.TKIP);
+            wc.allowedPairwiseCiphers.set(WifiConfiguration.PairwiseCipher.CCMP);
+            wc.allowedProtocols.set(WifiConfiguration.Protocol.RSN);
+            // connect to and enable the connection
+            int netId = wifiManager.addNetwork(wc);
+            wifiManager.disconnect();   //disconnect ->>
+            wifiManager.enableNetwork(netId, true);
+            success = wifiManager.reconnect();
+        }
+        return success;
+    }
+
+    private boolean removeAllSavedNetworks(WifiManager mainWifi) {
+        boolean success = false;
+        if (!mainWifi.isWifiEnabled()) {
+            //Log.d(TAG, "Enabled wifi before remove configured networks");
+            mainWifi.setWifiEnabled(true);
+        }
+        List<WifiConfiguration> wifiConfigList = mainWifi.getConfiguredNetworks();
+        if (wifiConfigList == null) {
+            //Log.d(TAG, "no configuration list is null");
+            return true;
+        }
+        //Log.d(TAG, "size of wifiConfigList: " + wifiConfigList.size());
+        for (WifiConfiguration wifiConfig: wifiConfigList) {
+            //Log.d(TAG, "remove wifi configuration: " + wifiConfig.networkId);
+            int netId = wifiConfig.networkId;
+            mainWifi.removeNetwork(netId);
+            mainWifi.saveConfiguration();
+            success = true;
+        }
+        return success;
     }
 
     /*

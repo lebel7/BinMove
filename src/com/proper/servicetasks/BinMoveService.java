@@ -87,9 +87,9 @@ public class BinMoveService extends Service {
 //        };
         ScheduledThreadPoolExecutor exec = new ScheduledThreadPoolExecutor(1);
         long period = 2; // the period between successive executions
-        exec.scheduleAtFixedRate(new doWorkInBackground(intent), 0, period, TimeUnit.MINUTES);
+        exec.scheduleAtFixedRate(new doWorkInBackground(), 0, period, TimeUnit.MINUTES);
         long delay = 1; //the delay between the termination of one execution and the commencement of the next
-        exec.scheduleWithFixedDelay(new doWorkInBackground(intent), 0, delay, TimeUnit.MINUTES);
+        exec.scheduleWithFixedDelay(new doWorkInBackground(), 0, delay, TimeUnit.MINUTES);
     }
 
     @Override
@@ -125,10 +125,10 @@ public class BinMoveService extends Service {
         //msg.obj = intent;
         //msg.sendToTarget();
         ScheduledThreadPoolExecutor exec = new ScheduledThreadPoolExecutor(1);
-        long period = 2; // the period between successive executions
-        exec.scheduleAtFixedRate(new doWorkInBackground(intent), 0, period, TimeUnit.MINUTES);
+        //long period = 2; // the period between successive executions
+        //exec.scheduleAtFixedRate(new doWorkInBackground(), 0, period, TimeUnit.MINUTES);
         long delay = 1; //the delay between the termination of one execution and the commencement of the next
-        exec.scheduleWithFixedDelay(new doWorkInBackground(intent), 0, delay, TimeUnit.MINUTES);
+        exec.scheduleWithFixedDelay(new doWorkInBackground(), 0, delay, TimeUnit.MINUTES);
         return START_NOT_STICKY;
     }
 
@@ -196,16 +196,16 @@ public class BinMoveService extends Service {
     }
 
     class doWorkInBackground implements Runnable {
-        private Intent intent;
+        //private Intent intent;
 
-        doWorkInBackground(Intent intent) {
-            this.intent = intent;
-        }
+        //doWorkInBackground(Intent intent) {
+            //this.intent = intent;
+        //}
 
         @Override
         public void run() {
-            wifiReceiver = new WifiLevelReceiver();
-            registerReceiver(wifiReceiver, new IntentFilter(WifiManager.SCAN_RESULTS_AVAILABLE_ACTION));
+            //wifiReceiver = new WifiLevelReceiver();
+            //registerReceiver(wifiReceiver, new IntentFilter(WifiManager.SCAN_RESULTS_AVAILABLE_ACTION));
             if (!mainWifi.isWifiEnabled()) {
                 mainWifi.setWifiEnabled(true);
             }
@@ -303,8 +303,6 @@ public class BinMoveService extends Service {
             loc = "ENDPOINT_THE2s";
         }else if (BSSID.equalsIgnoreCase(res.getString(R.string.ENDPOINT_AMAZONDISPATCH))) {
             loc = "ENDPOINT_AMAZONDISPATCH";
-        } else if (BSSID.equalsIgnoreCase(res.getString(R.string.ENDPOINT_THE4S))) {
-            loc = "ENDPOINT_THE4S";
         }else if (BSSID.equalsIgnoreCase(res.getString(R.string.ENDPOINT_BACKSTOCK8))) {
             loc = "ENDPOINT_BACKSTOCK8";
         }else if (BSSID.equalsIgnoreCase(res.getString(R.string.ENDPOINT_EXPORT))) {
@@ -361,39 +359,47 @@ public class BinMoveService extends Service {
 
             //Layout our accepted parameters
             String[] acceptedParam = {res.getString(R.string.ENDPOINT_THE2S), res.getString(R.string.ENDPOINT_AMAZONDISPATCH),
-                    res.getString(R.string.ENDPOINT_THE4S), res.getString(R.string.ENDPOINT_BACKSTOCK8), res.getString(R.string.ENDPOINT_EXPORT)};
+                    res.getString(R.string.ENDPOINT_BACKSTOCK8), res.getString(R.string.ENDPOINT_EXPORT)};
 
             if (wifiResults != null && !wifiResults.isEmpty()) {
                 for (int i = 0; i < wifiResults.size(); i++) {
 
                     //if the current info is in our list of authorized endpoints then continue
-                    if (!(Arrays.binarySearch(acceptedParam, wifiResults.get(i).BSSID) == -1)) {
+                    //if (!(Arrays.binarySearch(acceptedParam, wifiResults.get(i).BSSID) == -1)) {
+                    //    connections.add(wifiResults.get(i));
+                    //}
+
+                    //If the current endpoint.SSID == to our main wifi then add to list
+                    if (wifiResults.get(i).SSID.equalsIgnoreCase("wifi_zz")) {
                         connections.add(wifiResults.get(i));
                     }
                 }
             }
 
             //Sort our list based on signal strength in ascending order
-            Collections.sort(wifiResults, sorter);
+            Collections.sort(connections, sorter);
+            //Collections.sort(wifiResults, sorter);
 
             //Get current wifi info
             if (networkInfo.isConnected()) info = mainWifi.getConnectionInfo();
             //loop through results, if instance.BSSID != info.getBSSID
-            if (wifiResults != null && !wifiResults.isEmpty()) {
-                for (int x = wifiResults.size() -1; x >= 0; x--) {
+            if (connections != null && !connections.isEmpty()) {
+                for (int x = connections.size() -1; x >= 0; x--) {
                     if (info != null && !info.getBSSID().isEmpty()) {
                         //if the current info is in our list of accepted endpoints then continue
                         if (!(Arrays.binarySearch(acceptedParam, info.getBSSID()) == -1)) {
                             //Make sure that it's not the the one we're currently connected to
-                            if (!info.getBSSID().equalsIgnoreCase(wifiResults.get(x).BSSID)) {
+                            if (!info.getBSSID().equalsIgnoreCase(connections.get(x).BSSID)) {
                                 //Compare the current signal level to our WiFi Elect level
-                                // TODO - Assign the currentWifi value and the Looping value     ******************************************************************************************
-                                if (wifiResults.get(x).level > info.getRssi()) {
+                                // TODO - Assign the currentWifi value and the Looping value  ********************************************************************
+                                if (connections.get(x).level > info.getRssi()) {
                                     // Nominate a new wifi Elect -> this will in turn fire property changed -> update the UI -> connect to a new better connection
-                                    configurator.setEndpointElect(wifiResults.get(x));
+                                    configurator.setEndpointElect(connections.get(x));
+                                    break;
                                 }
                                 break;
                             } else {
+
                                 continue;
                             }
                         }

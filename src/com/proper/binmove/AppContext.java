@@ -19,10 +19,7 @@ import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.inputmethod.InputMethodManager;
 import com.proper.servicetasks.BinMoveService;
-import com.proper.utils.FileUtils;
-import com.proper.utils.MethodsCompact;
-import com.proper.utils.StringUtils;
-import com.proper.utils.UIHelper;
+import com.proper.utils.*;
 
 import java.io.*;
 import java.util.*;
@@ -102,6 +99,7 @@ public class AppContext extends Application {
         //FileUtils.createPath(AppConfig.DEFAULT_SAVE_PATH);
 
         //Start BinMoveService
+
         Intent serviceIntent = new Intent(this, BinMoveService.class);
         startService(serviceIntent);
     }

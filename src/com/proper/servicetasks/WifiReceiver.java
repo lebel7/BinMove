@@ -35,7 +35,7 @@ public class WifiReceiver extends BroadcastReceiver {
 
         //Layout our accepted parameters
         String[] acceptedParam = {res.getString(R.string.ENDPOINT_THE2S), res.getString(R.string.ENDPOINT_AMAZONDISPATCH),
-                res.getString(R.string.ENDPOINT_THE4S), res.getString(R.string.ENDPOINT_BACKSTOCK8)};
+                res.getString(R.string.ENDPOINT_BACKSTOCK8)};
 
         if (wifiResults != null && !wifiResults.isEmpty()) {
             for (int i = 0; i < wifiResults.size(); i++) {

@@ -183,7 +183,9 @@
     <!--    Authorized Endpoints  -->
     <string name="ENDPOINT_THE2S">08:bd:43:bb:26:00</string>
     <string name="ENDPOINT_AMAZONDISPATCH">20:4e:7f:87:61:60</string>
-    <string name="ENDPOINT_THE4S">20:4e:7f:87:58:00</string>
     <string name="ENDPOINT_BACKSTOCK8">20:4e:7f:87:4d:e0</string>
     <string name="ENDPOINT_EXPORT">08:bd:43:bb:22:00</string>
+    <!--<string name="ENDPOINT_BACKSTOCK8">20:4e:7f:87:4d:e0</string>-->
+    <!--<string name="ENDPOINT_BACKSTOCK8">20:4e:7f:87:4d:20</string>-->
+    <!--<string name="ENDPOINT_THE4S">20:4e:7f:87:58:00</string>-->
 </resources>
